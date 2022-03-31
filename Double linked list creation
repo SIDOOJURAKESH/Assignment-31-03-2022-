@@ -1,0 +1,118 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+typedef struct stu 
+{
+    int data;
+    struct stu *previous_link;
+    struct stu *next_link;
+}node;
+
+void create_list(node **,node **,int);
+void Display_list_first(node **);
+void Display_list_end(node **);
+
+int main()
+{
+    node *head_node=NULL,*last_node=NULL;
+    int len,n;
+    while(1)
+    {
+        printf("\n1.Create list\n2.Display list from first\n3.Display from end\n0.Quit\n");
+        printf("Enter above choice: ");
+        scanf("%d",&n);
+        switch(n)
+        {
+            case 1: printf("Enter length of the list: ");
+                    scanf("%d",&len);
+                    create_list(&head_node,&last_node,len);
+                    break;
+            case 2: Display_list_first(&head_node);
+                    break;
+            case 3: Display_list_end(&last_node);
+                    break;
+            default: goto EXIT;
+        }
+    }
+    EXIT: printf("Executed Successsfully\n");
+    return 0;
+}
+
+
+void create_list(node **head_node,node **last_node,int len)
+{
+    int i,value;
+    if(len>=1)
+    {
+        *head_node=(node *)malloc(sizeof(node));
+        printf("Enter the data: ");
+        scanf("%d",&value);
+        (*head_node)->data=value;
+        (*head_node)->previous_link=NULL;
+        (*head_node)->next_link=NULL;
+        
+        (*last_node)=(*head_node);
+        
+        for(i=2;i<=len;i++)
+        {
+            node *new_node=(node *)malloc(sizeof(node));
+            printf("Enter the data: ");
+            scanf("%d",&value);
+            new_node->data=value;
+            new_node->previous_link=(*last_node);
+            new_node->next_link=NULL;
+            
+            (*last_node)->next_link=new_node;
+            (*last_node)=new_node;
+        }
+        printf("List is created Successsfully\n");
+    }
+    
+}
+
+void Display_list_first(node **head_node)
+{
+    if(*head_node==NULL)
+    {
+        printf("List is empty\n");
+    }
+    else
+    {
+        node *temp_node=(*head_node);
+        printf("Data in the list: \n");
+        while(temp_node!=NULL)
+        {
+            printf("%d",temp_node->data);
+            temp_node=temp_node->next_link;
+            if(temp_node!=NULL)
+            {
+                printf("-->");
+            }
+        }
+        printf("\n");
+    }
+}
+
+void Display_list_end(node **last_node)
+{
+    if(*last_node==NULL)
+    {
+        printf("List is empty\n");
+    }
+    else
+    {
+        node *temp_node=*last_node;
+        printf("Data in the list: \n");
+        while(temp_node!=NULL)
+        {
+            printf("%d",temp_node->data);
+            temp_node=temp_node->previous_link;
+            if(temp_node!=NULL)
+            {
+                printf("-->");
+            }
+        }
+        printf("\n");
+    }
+}
+

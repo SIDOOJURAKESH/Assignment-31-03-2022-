@@ -1,0 +1,2273 @@
+Microsoft Windows [Version 10.0.19044.1586]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+List of devices attached
+36503c0f        unauthorized
+
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+36503c0f        device
+
+
+C:\Users\dell\Downloads\platform-tools>adb shell
+shell@1606:/ $
+C:\Users\dell\Downloads\platform-tools>adb shell ls
+adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+C:\Users\dell\Downloads\platform-tools>adb shell ls
+acct
+apps
+cache
+charger
+config
+d
+data
+default.prop
+dev
+donuts_key
+donuts_pub.der
+dsp
+etc
+file_contexts
+firmware
+fstab.qcom
+imei.der
+init
+init.PD1613.rc
+init.PD1613BF_EX.rc
+init.PD1613F_EX.rc
+init.PD1613LG4.rc
+init.PD1621.rc
+init.PD1621F_EX.rc
+init.PD1628.rc
+init.PD1628F_EX.rc
+init.PD1628LG4.rc
+init.TD1602.rc
+init.TD1602_EX.rc
+init.TD1605.rc
+init.TD1605F_EX.rc
+init.at.dl.rc
+init.at.rc
+init.class_main.sh
+init.environ.rc
+init.factory.rc
+init.mdm.sh
+init.msm.usb.configfs.rc
+init.powermo.rc
+init.qcom.class_core.sh
+init.qcom.dl.rc
+init.qcom.early_boot.sh
+init.qcom.factory.rc
+init.qcom.rc
+init.qcom.sensors.sh
+init.qcom.sh
+init.qcom.syspart_fixup.sh
+init.qcom.usb.rc
+init.qcom.usb.sh
+init.rc
+init.target.dl.rc
+init.target.rc
+init.trace.rc
+init.usb.configfs.rc
+init.usb.rc
+init.vivo.rc
+init.zygote32.rc
+mnt
+oem
+persist
+proc
+property_contexts
+res
+root
+sbin
+sdcard
+seapp_contexts
+selinux_version
+sepolicy
+service_contexts
+storage
+sys
+system
+tombstones
+ueventd.qcom.rc
+ueventd.rc
+vendor
+verity_key
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "rakesh"
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "rakesh"
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "rakesh"
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "rakesh"
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "rakesh"
+
+C:\Users\dell\Downloads\platform-tools>adb tcpip 5555
+restarting in TCP mode port: 5555
+
+C:\Users\dell\Downloads\platform-tools>adb connect
+adb.exe: usage: adb connect HOST[:PORT]
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+
+
+C:\Users\dell\Downloads\platform-tools>adb connect
+adb.exe: usage: adb connect HOST[:PORT]
+
+C:\Users\dell\Downloads\platform-tools>adb disconnect
+disconnected everything
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+36503c0f        unauthorized
+
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+36503c0f        device
+
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "rakesh"
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "rakesh"
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "rakesh"
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "12345"
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "12345"
+
+C:\Users\dell\Downloads\platform-tools>adb shell pm list packages
+package:com.google.android.youtube
+package:com.qualcomm.qti.auth.sampleextauthservice
+package:com.qrd.omadownload
+package:com.android.providers.telephony
+package:com.google.android.googlequicksearchbox
+package:com.android.providers.calendar
+package:com.android.providers.media
+package:com.cootek.smartinputv5.language.oem.indiansindhi
+package:com.cootek.smartinputv5.language.oem.malayan
+package:com.cootek.smartinputv5.language.oem.marathi
+package:com.goodix.rawdata
+package:com.phonepe.app
+package:com.qti.service.colorservice
+package:com.vivo.setupwizard
+package:com.google.android.onetimeinitializer
+package:com.cootek.smartinputv5.skin.keyboard_vivo
+package:com.qualcomm.qti.modemtestmode
+package:com.cootek.smartinputv5.language.oem.indianmaithili
+package:com.qualcomm.shutdownlistner
+package:com.vivo.abe
+package:com.vivo.pem
+package:com.android.wallpapercropper
+package:com.quicinc.cne.CNEService
+package:com.vivo.appfilter
+package:com.cootek.smartinputv5.language.oem.indianmanipuri
+package:com.vivo.collage
+package:com.vivo.compass
+package:org.simalliance.openmobileapi.service
+package:com.vivo.mediatune
+package:com.cootek.smartinputv5.language.oem.spanishus
+package:com.android.documentsui
+package:com.android.galaxy4
+package:com.android.externalstorage
+package:com.android.htmlviewer
+package:com.qualcomm.svi
+package:com.whatsapp
+package:com.vivo.cameraparamluma
+package:com.android.DemoVideo
+package:com.android.mms.service
+package:com.cootek.smartinputv5.language.oem.thai
+package:com.cootek.smartinputv5.language.oem.urdu
+package:com.android.providers.downloads
+package:com.qualcomm.qti.auth.sampleauthenticatorservice
+package:com.vivo.website
+package:com.android.bbkmusic
+package:com.qualcomm.qti.telephonyservice
+package:com.android.browser
+package:com.cootek.smartinputv5.language.oem.chs.handwrite
+package:com.dogusumit.ortatus
+package:com.bbk.updater
+package:com.qualcomm.qti.auth.fidocryptoservice
+package:com.android.bbkcalculator
+package:com.google.android.configupdater
+package:com.cootek.smartinputv5.language.oem.russian
+package:com.cootek.smartinputv5.language.oem.indiankonkani
+package:com.vivo.ewarranty
+package:com.vivo.pushservice
+package:com.volte.config
+package:com.android.defcontainer
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.qualcomm.cabl
+package:com.cootek.smartinputv5.language.oem.indiandogri
+package:com.android.filemanager
+package:com.vivo.bspservice
+package:com.cootek.smartinputv5.language.oem.portuguesebr
+package:com.cootek.smartinputv5.language.oem.portuguesept
+package:com.android.certinstaller
+package:com.vivo.smartshot
+package:com.google.android.marvin.talkback
+package:org.codeaurora.bluetooth
+package:com.qti.qualcomm.datastatusnotification
+package:com.cootek.smartinputv5.language.oem.indianbodo
+package:android
+package:com.android.contacts
+package:com.qualcomm.wfd.service
+package:com.emoji.keyboard.touchpal.vivo
+package:com.vivo.upnpserver
+package:com.qualcomm.qti.GBAHttpAuthentication.auth
+package:com.bbk.cloud
+package:com.cootek.smartinputv5.language.oem.indiankashmiri
+package:com.snapwork.hdfc
+package:com.bbk.theme
+package:com.android.mms
+package:com.android.stk
+package:com.android.backupconfirm
+package:com.instagram.android
+package:com.android.tethersettings
+package:com.cootek.smartinputv5.language.oem.sinhala
+package:com.cootek.smartinputv5.language.oem.italian
+package:org.codeaurora.ims
+package:com.bbk.calendar
+package:com.android.statementservice
+package:com.android.BBKClock
+package:com.google.android.gm
+package:com.android.BBKTools
+package:com.cootek.smartinputv5.language.oem.santhali
+package:com.android.photoeditor
+package:com.google.android.apps.tachyon
+package:com.cootek.smartinputv5.language.oem.tifinagh
+package:com.android.wifisettings
+package:com.vlife.vivo.wallpaper
+package:com.vivo.daemonService
+package:com.android.contacts.contactsstaredwidget
+package:com.android.phasebeam
+package:com.cootek.smartinputv5.language.oem.spanish
+package:com.ringclip
+package:com.google.android.instantapps.supervisor
+package:com.qualcomm.qti.auth.secureextauthservice
+package:com.google.android.setupwizard
+package:com.iqoo.engineermode
+package:com.android.BBKPhoneInstructions
+package:com.qti.primarycardcontroller
+package:com.qualcomm.qcrilmsgtunnel
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.facebook.services
+package:com.google.android.music
+package:com.android.printspooler
+package:com.cootek.smartinputv5.language.oem.swahili
+package:com.vivo.dream.note
+package:com.android.incallui
+package:com.android.frameworks.telresources
+package:com.android.inputdevices
+package:com.android.bluetoothsettings
+package:com.bbk.photoframewidget
+package:com.qualcomm.qti.auth.securesampleauthservice
+package:com.android.skin
+package:com.oma.drm
+package:com.qti.dpmserviceapp
+package:com.ibimuyu.lockscreen
+package:com.bbk.iqoo.logsystem
+package:com.cootek.smartinputv5.language.oem.tagalog
+package:com.vivo.SmartKey
+package:com.google.android.apps.docs
+package:com.google.android.apps.maps
+package:com.cootek.smartinputv5.language.oem.hindilatin
+package:com.bbk.facewake
+package:com.google.android.webview
+package:com.cootek.smartinputv5.language.oem.indiansanskrit
+package:com.cootek.smartinputv5.language.oem.indiansanthali
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.android.poweroffhandlerapp
+package:com.vivo.permissionmanager
+package:com.android.keychain
+package:com.cootek.smartinputv5.language.oem.chs
+package:com.cootek.smartinputv5.language.oem.cht
+package:com.android.camera
+package:com.android.chrome
+package:com.bbk.launcher2
+package:com.cootek.smartinputv5.language.oem.hinglish
+package:com.android.dialer
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tts
+package:com.android.calllogbackup
+package:com.google.android.partnersetup
+package:com.vivo.faceunlock
+package:com.google.android.videos
+package:org.codeaurora.btmultisim
+package:com.dsi.ant.server
+package:com.vivo.networkstate
+package:com.android.proxyhandler
+package:com.cootek.smartinputv5.language.oem.gujarati
+package:com.vivo.widget.calendar
+package:com.android.VideoPlayer
+package:com.cootek.smartinputv5.language.oem.indonesian
+package:com.android.BBKCrontab
+package:com.android.musiceffecttest
+package:com.google.android.feedback
+package:com.google.android.apps.photos
+package:com.google.android.syncadapters.calendar
+package:com.vivo.doubletimezoneclock
+package:com.android.managedprovisioning
+package:com.iqoo.secure
+package:com.cootek.smartinputv5.language.oem.kannada
+package:com.cootek.smartinputv5.language.oem.arabic
+package:com.iqoo.powersaving
+package:com.android.skintwo
+package:com.cootek.smartinputv5.skin.keyboard_vivo_night
+package:com.android.noisefield
+package:com.larksuite.suite
+package:com.cootek.smartinputv5.language.oem.ukrainian
+package:com.android.providers.partnerbookmarks
+package:com.google.android.gsf.login
+package:com.android.smspush
+package:com.cootek.smartinputv5.language.oem.french
+package:com.cootek.smartinputv5.language.oem.german
+package:com.facebook.lite
+package:com.facebook.system
+package:com.cootek.smartinputv5.language.oem.kazakh
+package:com.cootek.smartinputv5.language.oem.korean
+package:com.android.bbk.lockscreen3
+package:com.cootek.smartinputv5.language.oem.japanese
+package:com.vivo.audiofx
+package:com.google.android.backuptransport
+package:com.cootek.smartinputv5.language.oem.nepali
+package:com.cootek.smartinputv5.language.oem.malayalam
+package:com.bbk.theme.resources
+package:com.cootek.smartinputv5.language.oem.spanishlatin
+package:com.wdstechnology.android.kryten
+package:com.cootek.smartinputv5.language.oem.polish
+package:com.android.bookmarkprovider
+package:com.android.settings
+package:com.qualcomm.qti.ims
+package:com.google.android.apps.nbu.paisa.user
+package:com.cootek.smartinputv5.language.oem.somali
+package:com.bbk.scene.indoor
+package:com.cootek.smartinputv5.language.oem.telugu
+package:com.qualcomm.location
+package:com.cootek.smartinputv5.language.oem.punjabi
+package:com.cootek.smartinputv5.language.oem.bengali
+package:com.qualcomm.qti.tetherservice
+package:com.cootek.smartinputv5.language.oem.assamese
+package:com.cootek.smartinputv5.language.oem.zawgyi
+package:com.qualcomm.qti.securemsm.mdtp
+package:com.vivo.dream.clock
+package:com.vivo.dream.music
+package:com.android.wallpaper
+package:com.vivo.upslide
+package:com.android.vpndialogs
+package:com.vivo.gallery
+package:com.cootek.smartinputv5.language.oem.indiankonkanikn
+package:com.vivo.email
+package:com.vivo.flash
+package:com.cootek.smartinputv5.language.oem.laotian
+package:com.android.notes
+package:com.android.phone
+package:com.android.shell
+package:com.cootek.smartinputv5.language.oem.dutch
+package:com.cootek.smartinputv5.language.oem.hindi
+package:com.cootek.smartinputv5.language.oem.khmer
+package:com.cootek.smartinputv5.language.oem.oriya
+package:com.cootek.smartinputv5.language.oem.tamil
+package:com.android.providers.userdictionary
+package:com.qualcomm.qti.lunarinfo
+package:com.vivo.minscreen
+package:com.vivo.FMRadio
+package:com.android.location.fused
+package:com.android.systemui
+package:com.android.bluetoothmidiservice
+package:com.vivo.doubleinstance
+package:com.vivo.appstore
+package:com.facebook.appmanager
+package:com.qualcomm.qti.networksetting
+package:com.bbk.SuperPowerSave
+package:com.qualcomm.fastdormancy
+package:com.cootek.smartinputv5.language.oem.burmese
+package:com.qualcomm.qti.auth.fidosuiservice
+package:com.vivo.browser
+package:com.vivo.bsptest
+package:com.vivo.motionrecognition
+package:com.android.skinfive
+package:com.yozo.vivo.office
+package:com.cootek.smartinputv5.language.oem.manipuri
+package:com.cootek.smartinputv5.language.oem.italianch
+package:com.android.bluetooth
+package:com.qualcomm.timeservice
+package:com.qualcomm.embms
+package:com.android.providers.contacts
+package:com.android.captiveportallogin
+package:com.cootek.smartinputv5.language.oem.vietnam
+package:com.android.skinthree
+package:com.android.bbksoundrecorder
+package:com.cootek.smartinputv5.language.oem.cangjie
+package:com.bbk.account
+
+C:\Users\dell\Downloads\platform-tools>adb shell pm uninstall com.facebook.appmanager
+Success
+
+C:\Users\dell\Downloads\platform-tools>:adb shell getprop ro.build.version.release
+C:\Users\dell\Downloads\platform-tools>ps
+'ps' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\dell\Downloads\platform-tools>:adb shell getprop ro.build.version.release
+C:\Users\dell\Downloads\platform-tools>adb ps
+adb.exe: unknown command ps
+
+C:\Users\dell\Downloads\platform-tools>:adb shell getprop ro.build.version.release
+C:\Users\dell\Downloads\platform-tools>adb ps
+adb.exe: unknown command ps
+
+C:\Users\dell\Downloads\platform-tools>adb ps
+adb.exe: unknown command ps
+
+C:\Users\dell\Downloads\platform-tools>adb install C:\Users\dell\Downloads\zapya.apk
+Performing Push Install
+adb: error: cannot stat 'C:\Users\dell\Downloads\zapya.apk': No such file or directory
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+36503c0f        device
+
+
+C:\Users\dell\Downloads\platform-tools>adb install C:\Users\dell\Downloads\zapya.apk
+Performing Push Install
+adb: error: cannot stat 'C:\Users\dell\Downloads\zapya.apk': No such file or directory
+
+C:\Users\dell\Downloads\platform-tools>adb install C:\Users\dell\Downloads\Vysor-win-4.1.77
+Performing Push Install
+adb.exe: need APK file on command line
+
+C:\Users\dell\Downloads\platform-tools>adb install C:\Users\dell\Downloads\Vysor-win-4.1.77
+Performing Push Install
+adb.exe: need APK file on command line
+
+C:\Users\dell\Downloads\platform-tools>adb install C:\Users\dell\Downloads\Vysor
+Performing Push Install
+adb.exe: need APK file on command line
+
+C:\Users\dell\Downloads\platform-tools>adb push install C:\Users\dell\Downloads\Vysor-win-4.1.77
+adb: error: cannot stat 'install': No such file or directory
+
+C:\Users\dell\Downloads\platform-tools>adb install C:\Users\dell\Downloads\Vysor-win-4.1.77
+Performing Push Install
+adb.exe: need APK file on command line
+
+C:\Users\dell\Downloads\platform-tools>adb shell ps
+USER      PID   PPID  VSIZE  RSS   WCHAN            PC  NAME
+root      1     0     2804   764   SyS_epoll_ 00000000 S /init
+root      2     0     0      0       kthreadd 00000000 S kthreadd
+root      3     2     0      0     smpboot_th 00000000 S ksoftirqd/0
+root      5     2     0      0     worker_thr 00000000 S kworker/0:0H
+root      6     2     0      0     msm_mpm_wo 00000000 D kworker/u8:0
+root      7     2     0      0     rcu_gp_kth 00000000 S rcu_preempt
+root      8     2     0      0     rcu_gp_kth 00000000 S rcu_sched
+root      9     2     0      0     rcu_gp_kth 00000000 S rcu_bh
+root      10    2     0      0     smpboot_th 00000000 S migration/0
+root      11    2     0      0     smpboot_th 00000000 S migration/1
+root      12    2     0      0     smpboot_th 00000000 S ksoftirqd/1
+root      14    2     0      0     worker_thr 00000000 S kworker/1:0H
+root      15    2     0      0     smpboot_th 00000000 S migration/2
+root      16    2     0      0     smpboot_th 00000000 S ksoftirqd/2
+root      18    2     0      0     worker_thr 00000000 S kworker/2:0H
+root      19    2     0      0     smpboot_th 00000000 S migration/3
+root      20    2     0      0     smpboot_th 00000000 S ksoftirqd/3
+root      22    2     0      0     worker_thr 00000000 S kworker/3:0H
+root      23    2     0      0     rescuer_th 00000000 S khelper
+root      24    2     0      0     rescuer_th 00000000 S netns
+root      25    2     0      0     rescuer_th 00000000 S perf
+root      26    2     0      0     watchdog_k 00000000 S msm_watchdog
+root      27    2     0      0     rescuer_th 00000000 S smd_channel_clo
+root      28    2     0      0     rescuer_th 00000000 S smsm_cb_wq
+root      30    2     0      0     rescuer_th 00000000 S glink_tx
+root      31    2     0      0     rescuer_th 00000000 S glink_tx
+root      32    2     0      0     rescuer_th 00000000 S glink_tx
+root      33    2     0      0     rescuer_th 00000000 S glink_tx
+root      34    2     0      0     rescuer_th 00000000 S glink_tx
+root      35    2     0      0     irq_thread 00000000 S irq/152-cpr
+root      36    2     0      0     touchscree 00000000 S vivo-ts-kthread
+root      37    2     0      0     rescuer_th 00000000 S deferwq
+root      40    2     0      0     rescuer_th 00000000 S mpm
+root      49    2     0      0     rescuer_th 00000000 S writeback
+root      50    2     0      0     rescuer_th 00000000 S crypto
+root      51    2     0      0     rescuer_th 00000000 S bioset
+root      52    2     0      0     rescuer_th 00000000 S kblockd
+root      53    2     0      0     rescuer_th 00000000 S edac-poller
+root      54    2     0      0     ion_heap_d 00000000 S system
+root      55    2     0      0     irq_thread 00000000 S irq/35-msm_iomm
+root      56    2     0      0     irq_thread 00000000 S irq/37-msm_iomm
+root      57    2     0      0     irq_thread 00000000 S irq/294-msm_iom
+root      58    2     0      0     irq_thread 00000000 S irq/295-msm_iom
+root      59    2     0      0     irq_thread 00000000 S irq/296-msm_iom
+root      60    2     0      0     irq_thread 00000000 S irq/297-msm_iom
+root      61    2     0      0     irq_thread 00000000 S irq/298-msm_iom
+root      62    2     0      0     irq_thread 00000000 S irq/299-msm_iom
+root      63    2     0      0     irq_thread 00000000 S irq/300-msm_iom
+root      64    2     0      0     irq_thread 00000000 S irq/301-msm_iom
+root      65    2     0      0     irq_thread 00000000 S irq/302-msm_iom
+root      66    2     0      0     irq_thread 00000000 S irq/303-msm_iom
+root      67    2     0      0     irq_thread 00000000 S irq/304-msm_iom
+root      68    2     0      0     irq_thread 00000000 S irq/305-msm_iom
+root      69    2     0      0     irq_thread 00000000 S irq/306-msm_iom
+root      70    2     0      0     irq_thread 00000000 S irq/307-msm_iom
+root      71    2     0      0     irq_thread 00000000 S irq/308-msm_iom
+root      72    2     0      0     irq_thread 00000000 S irq/309-msm_iom
+root      73    2     0      0     irq_thread 00000000 S irq/310-msm_iom
+root      74    2     0      0     irq_thread 00000000 S irq/311-msm_iom
+root      75    2     0      0     irq_thread 00000000 S irq/312-msm_iom
+root      76    2     0      0     irq_thread 00000000 S irq/313-msm_iom
+root      77    2     0      0     irq_thread 00000000 S irq/314-msm_iom
+root      78    2     0      0     irq_thread 00000000 S irq/315-msm_iom
+root      79    2     0      0     rescuer_th 00000000 S devfreq_wq
+root      80    2     0      0     rescuer_th 00000000 S governor_msm_ad
+root      81    2     0      0     rescuer_th 00000000 S cfg80211
+root      82    2     0      0     irq_thread 00000000 S irq/132-bcl_vba
+root      83    2     0      0     irq_thread 00000000 S irq/131-bcl_iba
+root      104   2     0      0     rescuer_th 00000000 S power_off_alarm
+root      105   2     0      0         kswapd 00000000 S kswapd0
+root      106   2     0      0     fsnotify_m 00000000 S fsnotify_mark
+root      127   2     0      0     rescuer_th 00000000 S rot_commit_work
+root      128   2     0      0     worker_thr 00000000 S kworker/u9:0
+root      129   2     0      0     rescuer_th 00000000 S rot_workq_0
+root      130   2     0      0     dsi_event_ 00000000 D mdss_dsi_event
+root      131   2     0      0     rescuer_th 00000000 S mdss_dsi_dba
+root      132   2     0      0     rescuer_th 00000000 S glink_ssr_wq
+root      133   2     0      0     rescuer_th 00000000 S glink_lbsrv
+root      134   2     0      0     rescuer_th 00000000 S apr_driver
+root      135   2     0      0     rescuer_th 00000000 S mem_share_svc
+root      136   2     0      0     rescuer_th 00000000 S qmi_hndl0000000
+root      137   2     0      0     rescuer_th 00000000 S msm_ipc_router
+root      138   2     0      0     add_hwgene 00000000 S hwrng
+root      140   2     0      0     rescuer_th 00000000 S diag_real_time_
+root      141   2     0      0     rescuer_th 00000000 S diag_wq
+root      142   2     0      0     rescuer_th 00000000 S DIAG_USB_diag
+root      143   2     0      0     rescuer_th 00000000 S diag_cntl_wq
+root      144   2     0      0     rescuer_th 00000000 S diag_dci_wq
+root      145   2     0      0     rescuer_th 00000000 S DIAG_SMD_MODEM_
+root      146   2     0      0     rescuer_th 00000000 S DIAG_SMD_MODEM_
+root      147   2     0      0     rescuer_th 00000000 S DIAG_SMD_MODEM_
+root      148   2     0      0     rescuer_th 00000000 S DIAG_SMD_MODEM_
+root      149   2     0      0     rescuer_th 00000000 S DIAG_SMD_MODEM_
+root      150   2     0      0     rescuer_th 00000000 S DIAG_SMD_LPASS_
+root      151   2     0      0     rescuer_th 00000000 S DIAG_SMD_LPASS_
+root      152   2     0      0     rescuer_th 00000000 S DIAG_SMD_LPASS_
+root      153   2     0      0     rescuer_th 00000000 S DIAG_SMD_LPASS_
+root      154   2     0      0     rescuer_th 00000000 S DIAG_SMD_LPASS_
+root      155   2     0      0     rescuer_th 00000000 S DIAG_SMD_WCNSS_
+root      156   2     0      0     rescuer_th 00000000 S DIAG_SMD_WCNSS_
+root      157   2     0      0     rescuer_th 00000000 S DIAG_SMD_WCNSS_
+root      158   2     0      0     rescuer_th 00000000 S DIAG_SMD_WCNSS_
+root      159   2     0      0     rescuer_th 00000000 S DIAG_SMD_WCNSS_
+root      160   2     0      0     rescuer_th 00000000 S DIAG_SMD_SENSOR
+root      161   2     0      0     rescuer_th 00000000 S DIAG_SMD_SENSOR
+root      162   2     0      0     rescuer_th 00000000 S DIAG_SMD_SENSOR
+root      163   2     0      0     rescuer_th 00000000 S DIAG_SMD_SENSOR
+root      164   2     0      0     rescuer_th 00000000 S DIAG_SMD_SENSOR
+root      165   2     0      0     rescuer_th 00000000 S DIAG_SOCKMODEM_
+root      166   2     0      0     rescuer_th 00000000 S DIAG_SOCKMODEM_
+root      167   2     0      0     rescuer_th 00000000 S DIAG_SOCKMODEM_
+root      168   2     0      0     rescuer_th 00000000 S DIAG_SOCKMODEM_
+root      169   2     0      0     rescuer_th 00000000 S DIAG_SOCKMODEM_
+root      170   2     0      0     rescuer_th 00000000 S DIAG_SOCKLPASS_
+root      171   2     0      0     rescuer_th 00000000 S DIAG_SOCKLPASS_
+root      172   2     0      0     rescuer_th 00000000 S DIAG_SOCKLPASS_
+root      173   2     0      0     rescuer_th 00000000 S DIAG_SOCKLPASS_
+root      174   2     0      0     rescuer_th 00000000 S DIAG_SOCKLPASS_
+root      175   2     0      0     rescuer_th 00000000 S DIAG_SOCKWCNSS_
+root      176   2     0      0     rescuer_th 00000000 S DIAG_SOCKWCNSS_
+root      177   2     0      0     rescuer_th 00000000 S DIAG_SOCKWCNSS_
+root      178   2     0      0     rescuer_th 00000000 S DIAG_SOCKWCNSS_
+root      179   2     0      0     rescuer_th 00000000 S DIAG_SOCKWCNSS_
+root      180   2     0      0     rescuer_th 00000000 S DIAG_SOCKSENSOR
+root      181   2     0      0     rescuer_th 00000000 S DIAG_SOCKSENSOR
+root      182   2     0      0     rescuer_th 00000000 S DIAG_SOCKSENSOR
+root      183   2     0      0     rescuer_th 00000000 S DIAG_SOCKSENSOR
+root      184   2     0      0     rescuer_th 00000000 S DIAG_SOCKSENSOR
+root      185   2     0      0     rescuer_th 00000000 S DIAG_CNTL_SOCKE
+root      186   2     0      0     rescuer_th 00000000 S kgsl-workqueue
+root      187   2     0      0     rescuer_th 00000000 S kgsl-mementry
+root      188   2     0      0     rescuer_th 00000000 S kgsl-events
+root      189   2     0      0     rescuer_th 00000000 S kgsl_devfreq_wq
+root      190   2     0      0     rescuer_th 00000000 S qcrypto_seq_res
+root      211   2     0      0     rescuer_th 00000000 S usbnet
+root      213   2     0      0     rescuer_th 00000000 S sharedmem_qmi_w
+root      214   2     0      0     rescuer_th 00000000 S qmi_hndl0000000
+root      215   2     0      0     rescuer_th 00000000 S k_gserial
+root      216   2     0      0     rescuer_th 00000000 S k_ipa_usb
+root      217   2     0      0     rescuer_th 00000000 S uether
+root      218   2     0      0     rescuer_th 00000000 S k_gbridge
+root      219   2     0      0     rescuer_th 00000000 S msm_vidc_worker
+root      220   2     0      0     rescuer_th 00000000 S pm_workerq_venu
+root      221   2     0      0     rescuer_th 00000000 S msm_cci_wq
+root      222   2     0      0     rescuer_th 00000000 S msm_cci_wq
+root      223   2     0      0     rescuer_th 00000000 S msm_cpp_workque
+root      224   2     0      0     irq_thread 00000000 S irq/121-soft-co
+root      225   2     0      0     irq_thread 00000000 S irq/122-soft-ho
+root      226   2     0      0     irq_thread 00000000 S irq/127-batt-mi
+root      227   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      228   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      229   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      230   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      231   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      232   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      233   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      234   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      235   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      236   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      237   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      238   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      239   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      240   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      241   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      242   2     0      0     irq_thread 00000000 S irq/48-tsens_in
+root      243   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      245   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      246   2     0      0     rescuer_th 00000000 S dm_bufio_cache
+root      247   2     0      0     cpufreq_in 00000000 S cfinteractive
+root      248   2     0      0     irq_thread 00000000 S irq/146-7824900
+root      249   2     0      0     irq_thread 00000000 S irq/145-mmc0
+root      250   2     0      0     irq_thread 00000000 S irq/148-7864900
+root      251   2     0      0     irq_thread 00000000 S irq/147-mmc1
+root      252   2     0      0     irq_thread 00000000 S irq/220-7864900
+root      253   2     0      0     irq_thread 00000000 S irq/133-qpnp_wl
+root      254   2     0      0     rescuer_th 00000000 S binder
+root      255   2     0      0     irq_thread 00000000 S irq/134-qpnp_sc
+root      256   2     0      0     irq_thread 00000000 S irq/44-spdm_bw_
+root      257   2     0      0     mmc_cmdq_t 00000000 D mmc-cmdqd/0
+root      258   2     0      0     mmc_queue_ 00000000 S mmcqd/0rpmb
+root      259   2     0      0     rescuer_th 00000000 S ipv6_addrconf
+root      260   2     0      0     rfcomm_run 00000000 S krfcommd
+root      264   2     0      0     irq_thread 00000000 S irq/478-adsp
+root      265   2     0      0     rescuer_th 00000000 S sysmon_wq
+root      266   2     0      0     rescuer_th 00000000 S qmi_svc_event_w
+root      267   2     0      0     irq_thread 00000000 S irq/510-wcnss
+root      268   2     0      0     irq_thread 00000000 S irq/446-modem
+root      273   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      274   2     0      0     irq_thread 00000000 S irq/83-chg-erro
+root      275   2     0      0     irq_thread 00000000 S irq/89-chg-tape
+root      276   2     0      0     irq_thread 00000000 S irq/90-chg-tcc-
+root      277   2     0      0     irq_thread 00000000 S irq/88-chg-rech
+root      278   2     0      0     irq_thread 00000000 S irq/87-chg-p2f-
+root      279   2     0      0     irq_thread 00000000 S irq/93-usbid-ch
+root      280   2     0      0     irq_thread 00000000 S irq/92-otg-oc
+root      281   2     0      0     irq_thread 00000000 S irq/91-otg-fail
+root      282   2     0      0     irq_thread 00000000 S irq/94-batt-hot
+root      283   2     0      0     irq_thread 00000000 S irq/95-batt-war
+root      284   2     0      0     irq_thread 00000000 S irq/97-batt-coo
+root      285   2     0      0     irq_thread 00000000 S irq/96-batt-col
+root      286   2     0      0     irq_thread 00000000 S irq/100-batt-mi
+root      287   2     0      0     irq_thread 00000000 S irq/99-batt-low
+root      288   2     0      0     irq_thread 00000000 S irq/102-usbin-u
+root      289   2     0      0     irq_thread 00000000 S irq/103-usbin-o
+root      290   2     0      0     irq_thread 00000000 S irq/104-usbin-s
+root      291   2     0      0     irq_thread 00000000 S irq/105-aicl-do
+root      292   2     0      0     irq_thread 00000000 S irq/106-dcin-uv
+root      293   2     0      0     irq_thread 00000000 S irq/108-power-o
+root      294   2     0      0     irq_thread 00000000 S irq/109-temp-sh
+root      295   2     0      0     irq_thread 00000000 S irq/110-wdog-ti
+root      296   2     0      0     rescuer_th 00000000 S rq_stats
+root      297   2     0      0     rescuer_th 00000000 S usb_bam_wq
+root      298   2     0      0     events_not 00000000 S msm_perf:events
+root      299   2     0      0     rescuer_th 00000000 S bam_dmux_rx
+root      300   2     0      0     rescuer_th 00000000 S bam_dmux_tx
+root      301   2     0      0     rescuer_th 00000000 S k_bam_data
+root      302   2     0      0     rescuer_th 00000000 S f_mtp
+root      303   2     0      0     rescuer_th 00000000 S goodix_wq
+root      304   2     0      0     rescuer_th 00000000 S gtp_esd_check
+root      305   2     0      0     rescuer_th 00000000 S gt970_fb_notifi
+root      306   2     0      0     rescuer_th 00000000 S gtp_err_wq
+root      308   2     0      0     worker_thr 00000000 S kworker/1:1H
+root      309   2     0      0     do_hotplug 00000000 S msm_thermal:hot
+root      310   2     0      0     do_freq_mi 00000000 S msm_thermal:fre
+root      311   2     0      0     do_thermal 00000000 S msm_thermal:the
+root      312   1     2544   444   poll_sched 00000000 S /sbin/ueventd
+root      315   2     0      0     worker_thr 00000000 S kworker/0:1H
+root      316   2     0      0     rescuer_th 00000000 S kdmflush
+root      317   2     0      0     rescuer_th 00000000 S bioset
+root      318   2     0      0     rescuer_th 00000000 S kverityd
+root      319   2     0      0     rescuer_th 00000000 S bioset
+root      320   2     0      0     kjournald2 00000000 S jbd2/dm-0-8
+root      321   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      322   2     0      0     rescuer_th 00000000 S kdmflush
+root      323   2     0      0     rescuer_th 00000000 S bioset
+root      324   2     0      0     rescuer_th 00000000 S kverityd
+root      325   2     0      0     rescuer_th 00000000 S bioset
+root      326   2     0      0     kjournald2 00000000 S jbd2/dm-1-8
+root      327   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      328   2     0      0     kjournald2 00000000 S jbd2/mmcblk0p50
+root      329   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      332   2     0      0     kjournald2 00000000 S jbd2/mmcblk0p25
+root      333   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      334   2     0      0     kjournald2 00000000 S jbd2/mmcblk0p26
+root      335   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      336   2     0      0     kjournald2 00000000 S jbd2/mmcblk0p12
+root      337   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+logd      338   1     14680  3304  sigsuspend 00000000 S /system/bin/logd
+root      343   2     0      0     kauditd_th 00000000 S kauditd
+root      346   1     45540  520   hrtimer_na 00000000 S /system/bin/vold
+root      363   2     0      0     rescuer_th 00000000 S IPCRTR
+root      364   2     0      0     rescuer_th 00000000 S adsp_IPCRTR
+root      376   2     0      0     irq_thread 00000000 S irq/65-mbhc sw
+root      377   2     0      0     irq_thread 00000000 S irq/63-Button P
+root      378   2     0      0     irq_thread 00000000 S irq/62-Button R
+root      379   2     0      0     irq_thread 00000000 S irq/61-Elect In
+root      380   2     0      0     irq_thread 00000000 S irq/64-Elect Re
+root      381   2     0      0     irq_thread 00000000 S irq/68-HPH_L OC
+root      382   2     0      0     irq_thread 00000000 S irq/67-HPH_R OC
+root      383   2     0      0     irq_thread 00000000 S irq/154-headset
+root      390   2     0      0     rescuer_th 00000000 S qmi_hndl0000000
+root      408   1     9568   272   SyS_epoll_ 00000000 S /sbin/healthd
+root      409   1     3068   392   SyS_epoll_ 00000000 S /system/bin/lmkd
+system    410   1     3120   544   binder_thr 00000000 S /system/bin/servicemanager
+system    411   1     64660  5696  SyS_epoll_ 00000000 S /system/bin/surfaceflinger
+nobody    414   1     9416   352   poll_sched 00000000 S /system/bin/rmt_storage
+system    420   1     6180   356      do_wait 00000000 S /system/bin/qseecomd
+system    421   1     10532  296   do_sigtime 00000000 S /system/bin/pm-service
+system    434   1     7756   356   hrtimer_na 00000000 S /system/bin/pm-proxy
+u0_a142   444   31061 913720 52700 SyS_epoll_ 00000000 S com.emoji.keyboard.touchpal.vivo
+sensors   462   1     48360  448   poll_sched 00000000 S /system/bin/sensors.qcom
+system    463   420   16708  256   sigsuspend 00000000 S /system/bin/qseecomd
+root      605   2     0      0     rescuer_th 00000000 S IPCRTR
+root      606   2     0      0     rescuer_th 00000000 S modem_IPCRTR
+root      607   2     0      0     rescuer_th 00000000 S kdmflush
+root      608   2     0      0     rescuer_th 00000000 S bioset
+root      613   2     0      0     rescuer_th 00000000 S qmi_hndl0000000
+root      618   2     0      0     kjournald2 00000000 S jbd2/dm-2-8
+root      619   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      621   2     0      0     worker_thr 00000000 S kworker/2:1H
+root      623   1     3820   408   __skb_recv 00000000 S /system/bin/debuggerd
+radio     624   1     95744  1208  hrtimer_na 00000000 S /system/bin/rild
+drm       625   1     29492  456   binder_thr 00000000 S /system/bin/drmserver
+root      627   1     5496   672   unix_strea 00000000 S /system/bin/installd
+keystore  629   1     7516   1228  binder_thr 00000000 S /system/bin/keystore
+system    631   1     6596   1004  binder_thr 00000000 S /system/bin/getuk
+root      632   1     8680   404   poll_sched 00000000 S /system/bin/qcom-system-daemon
+system    634   1     59152  1032  SyS_epoll_ 00000000 S /system/bin/cnd
+rfs       635   1     3288   356   poll_sched 00000000 S /system/bin/tftp_server
+wifi      636   1     5800   464   poll_sched 00000000 S /system/bin/ptt_socket_app
+root      637   1     54432  244   sigsuspend 00000000 S /system/vendor/bin/thermal-engine
+system    638   1     7668   348   wcnss_wlan 00000000 S /system/bin/wcnss_service
+media     640   1     5384   384   poll_sched 00000000 S /system/bin/adsprpcd
+system    641   1     3148   488   SyS_epoll_ 00000000 S /system/bin/hvdcp_opti
+root      643   1     34496  832   binder_thr 00000000 S /system/bin/vivo_daemon
+root      644   1     5628   420   binder_thr 00000000 S /system/bin/EncodeService
+system    645   1     5480   696   binder_thr 00000000 S /system/bin/gatekeeperd
+root      652   1     7188   540   unix_strea 00000000 S /system/bin/dpmd
+system    653   1     8712   368   __skb_recv 00000000 S /system/bin/cnss-daemon
+gps       654   1     4768   600   sigsuspend 00000000 S /system/bin/loc_launcher
+system    656   31061 717168 22524 SyS_epoll_ 00000000 S com.vivo.permissionmanager
+system    658   1     51364  492   binder_thr 00000000 S /system/vendor/bin/qseeproxydaemon
+camera    659   1     312628 8684  poll_sched 00000000 S /system/bin/mm-qcamera-daemon
+system    660   1     12072  328   futex_wait 00000000 S /system/bin/time_daemon
+system    661   1     29300  392   binder_thr 00000000 S /system/bin/audiod
+system    662   1     18180  404   binder_thr 00000000 S /system/vendor/bin/mdtpd
+gps       686   654   13860  224   futex_wait 00000000 S lowi-server
+gps       687   654   19696  232   futex_wait 00000000 S xtwifi-inet-agent
+gps       688   654   27800  432   futex_wait 00000000 S xtwifi-client
+gps       689   654   19112  320   poll_sched 00000000 S slim_daemon
+radio     726   1     8340   368   poll_sched 00000000 S /system/bin/qmuxd
+system    782   652   11944  652   SyS_epoll_ 00000000 S /system/bin/dpmd
+system    803   1     5624   348   poll_sched 00000000 S /system/bin/ipacm-diag
+net_admin 820   1     8940   516   futex_wait 00000000 S /system/bin/ipacm
+radio     831   1     86980  676   hrtimer_na 00000000 S /system/bin/rild
+root      837   2     0      0     worker_thr 00000000 S kworker/3:1H
+radio     840   1     10072  364   poll_sched 00000000 S /system/vendor/bin/qti
+system    844   1     8800   396   poll_sched 00000000 S /system/bin/imsqmidaemon
+radio     846   1     96088  496   __skb_recv 00000000 S /system/bin/netmgrd
+system    870   1     25108  452   poll_sched 00000000 S /system/bin/imsdatadaemon
+system    879   31061 709796 14404 SyS_epoll_ 00000000 S com.qti.service.colorservice
+system    916   1     234896 456   __skb_recv 00000000 S /system/bin/ims_rtp_daemon
+system    917   1     56872  480   binder_thr 00000000 S /system/bin/imscmservice
+root      929   2     0      0     rescuer_th 00000000 S IPCRTR
+root      935   2     0      0     rescuer_th 00000000 S wcnss_IPCRTR
+root      1101  2     0      0     worker_thr 00000000 S kworker/2:2
+system    1356  31061 715520 16600 SyS_epoll_ 00000000 S com.volte.config
+root      1503  31070 0      0        do_exit 00000000 Z clatd
+system    1880  1     15628  416   binder_thr 00000000 S /system/bin/face_detect
+root      1916  2     0      0     worker_thr 00000000 S kworker/u8:3
+root      2370  2     0      0     worker_thr 00000000 S kworker/3:1
+root      3335  2     0      0     irq_thread 00000000 S irq/138-408000.
+root      3413  1     8684   484   futex_wait 00000000 S /system/vendor/bin/perfd
+root      3421  2     0      0     notify_use 00000000 S wrkld_notify
+root      3463  2     0      0     worker_thr 00000000 S kworker/u8:1
+system    3694  31061 727364 26244 SyS_epoll_ 00000000 S com.vivo.abe:bin
+root      4261  2     0      0     worker_thr 00000000 S kworker/1:2
+root      4435  2     0      0     worker_thr 00000000 S kworker/2:1
+u0_a11    4444  31061 996116 80132 SyS_epoll_ 00000000 S com.google.android.gms.persistent
+root      4598  2     0      0     worker_thr 00000000 S kworker/u8:2
+u0_a24    4643  31061 1398116 35196 SyS_epoll_ 00000000 S com.google.android.googlequicksearchbox:interactor
+root      4769  2     0      0     worker_thr 00000000 S kworker/0:3
+u0_a174   4790  31061 880356 104184 SyS_epoll_ 00000000 S com.whatsapp
+root      4947  2     0      0     worker_thr 00000000 S kworker/3:2
+root      4956  2     0      0     worker_thr 00000000 S kworker/2:0
+root      5042  2     0      0     worker_thr 00000000 S kworker/1:0
+root      5073  2     0      0     worker_thr 00000000 S kworker/u8:5
+root      5219  1     24268  404   hrtimer_na 00000000 S /system/bin/vivo_em_svr
+u0_a38    5559  31061 1240508 71860 SyS_epoll_ 00000000 S com.bbk.launcher2
+u0_a155   5636  31061 751844 42692 SyS_epoll_ 00000000 S com.vivo.pushservice
+system    5695  31061 714520 30064 SyS_epoll_ 00000000 S com.bbk.facewake
+shell     5795  1     6828   292   poll_sched 00000000 S /sbin/adbd
+system    5937  31061 711532 24472 SyS_epoll_ 00000000 S org.simalliance.openmobileapi.service:remote
+u0_a88    5968  31061 775128 40300 SyS_epoll_ 00000000 S com.iqoo.secure
+u0_a8     6065  31061 714688 29492 SyS_epoll_ 00000000 S android.process.media
+u0_a60    6115  31061 712572 27212 SyS_epoll_ 00000000 S com.vivo.widget
+u0_a3     6136  31061 734236 47736 SyS_epoll_ 00000000 S android.process.acore
+system    6182  31061 709096 23832 SyS_epoll_ 00000000 S com.qualcomm.display
+u0_a30    6215  31061 731824 36872 SyS_epoll_ 00000000 S com.facebook.services
+u0_a196   6263  31061 1321064 96768 SyS_epoll_ 00000000 S com.instagram.android
+root      6307  2     0      0     worker_thr 00000000 S kworker/0:0
+system    6309  31061 715992 29640 SyS_epoll_ 00000000 S com.vivo.appfilter
+root      6370  846   0      0        do_exit 00000000 Z ip6tables
+system    6496  31061 711912 25568 SyS_epoll_ 00000000 S com.iqoo.powersaving
+u0_a143   6510  31061 735752 32552 SyS_epoll_ 00000000 S com.bbk.updater
+u0_a8     6540  31061 713692 28408 SyS_epoll_ 00000000 S com.android.providers.downloads
+u0_a163   6573  31061 730276 34720 SyS_epoll_ 00000000 S com.facebook.appmanager
+u0_a9     6611  31061 749028 34916 SyS_epoll_ 00000000 S com.vivo.email:eas
+u0_a9     6628  31061 799196 56880 SyS_epoll_ 00000000 S com.vivo.email
+u0_a129   6688  31061 1050012 45324            00000000 R com.vivo.launcher.scene.comm
+shell     6701  5795  2812   1072           0 b6e4ffd8 R ps
+system    8278  31061 712212 18172 SyS_epoll_ 00000000 S com.vivo.doubleinstance
+root      8404  2     0      0     cntl_socke 00000000 S kworker/u8:6
+root      9797  846   0      0        do_exit 00000000 Z ip6tables
+root      10026 846   0      0        do_exit 00000000 Z ip6tables
+root      10308 846   0      0        do_exit 00000000 Z ip6tables
+root      15641 2     0      0     worker_thr 00000000 S kworker/u9:1
+root      16733 846   0      0        do_exit 00000000 Z ip6tables
+root      18173 2     0      0     worker_thr 00000000 S kworker/u8:4
+root      19668 2     0      0     worker_thr 00000000 S kworker/u8:8
+root      24064 846   0      0        do_exit 00000000 Z ip6tables
+radio     25204 31061 741656 33284 SyS_epoll_ 00000000 S com.android.incallui
+u0_a165   26294 31061 1147736 90456 SyS_epoll_ 00000000 S com.google.android.marvin.talkback
+root      26298 846   0      0        do_exit 00000000 Z ip6tables
+root      26655 846   0      0        do_exit 00000000 Z iptables
+root      28894 2     0      0     worker_thr 00000000 S kworker/3:0
+root      28897 2     0      0     worker_thr 00000000 S kworker/0:2
+u0_a88    30351 31061 802416 38444 SyS_epoll_ 00000000 S com.iqoo.secure:remote
+u0_a143   30893 31061 723572 17512 SyS_epoll_ 00000000 S com.bbk.updater:remote
+root      31061 1     1032220 18784 poll_sched 00000000 S zygote
+system    31062 1     49508  568   poll_sched 00000000 S /system/vendor/bin/mm-pp-dpps
+root      31070 1     18400  972   hrtimer_na 00000000 S /system/bin/netd
+media     31071 1     394536 11552 binder_thr 00000000 S /system/bin/mediaserver
+system    31273 31061 2010064 143492 SyS_epoll_ 00000000 S system_server
+root      31600 2     0      0     worker_thr 00000000 S kworker/0:1
+root      31621 2     0      0     VosWDThrea 00000000 S VosWDThread
+root      31623 2     0      0     VosMCThrea 00000000 S VosMCThread
+root      31624 2     0      0     VosTXThrea 00000000 S VosTXThread
+root      31625 2     0      0     VosRXThrea 00000000 S VosRXThread
+root      31630 2     0      0     wlan_loggi 00000000 S wlan_logging_th
+root      31643 2     0      0     worker_thr 00000000 S kworker/u8:9
+u0_a23    31681 31061 913992 79152 SyS_epoll_ 00000000 S com.android.systemui
+root      31689 2     0      0     inotify_re 00000000 S pkgld
+wifi      31691 1     19492  764   poll_sched 00000000 S /system/bin/wpa_supplicant
+root      31697 2     0      0     inotify_re 00000000 S pkgld
+root      31698 2     0      0     inotify_re 00000000 S pkgld
+system    31736 31061 817212 36768 SyS_epoll_ 00000000 S com.vivo.abe
+system    31863 31061 764284 29924 SyS_epoll_ 00000000 S com.vivo.daemonService
+system    31961 31061 742100 30532 SyS_epoll_ 00000000 S com.vivo.pem
+u0_a97    32032 31061 720976 16148 SyS_epoll_ 00000000 S com.bbk.iqoo.logsystem
+system    32052 31061 729288 18308 SyS_epoll_ 00000000 S com.vivo.rms
+root      32150 2     0      0     worker_thr 00000000 S kworker/1:1
+system    32269 31061 715856 18448 SyS_epoll_ 00000000 S com.quicinc.cne.CNEService
+system    32278 31061 711780 14676 SyS_epoll_ 00000000 S com.qualcomm.qti.GBAHttpAuthentication.auth
+system    32285 31061 712804 16244 SyS_epoll_ 00000000 S com.qti.dpmserviceapp
+system    32310 31061 722048 22176 SyS_epoll_ 00000000 S com.android.server.telecom
+system    32317 31061 718236 14944 SyS_epoll_ 00000000 S com.qualcomm.qti.tetherservice
+system    32329 31061 796920 34372 SyS_epoll_ 00000000 S com.vivo.upslide
+radio     32348 31061 824004 42800 SyS_epoll_ 00000000 S com.android.phone
+u0_a11    32599 31061 1057276 68748 SyS_epoll_ 00000000 S com.google.android.gms
+radio     32671 31061 714260 15468 SyS_epoll_ 00000000 S com.qualcomm.qcrilmsgtunnel
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+36503c0f        device
+
+
+C:\Users\dell\Downloads\platform-tools>adb devices -ls
+adb.exe: adb devices [-l]
+
+C:\Users\dell\Downloads\platform-tools>adb devices -l
+List of devices attached
+36503c0f               device product:1606 model:vivo_1606 device:1606 transport_id:30
+
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "hello"
+
+C:\Users\dell\Downloads\platform-tools>adb tcpip 5555
+restarting in TCP mode port: 5555
+
+C:\Users\dell\Downloads\platform-tools>
+C:\Users\dell\Downloads\platform-tools>adb connect 192.168.1.29
+failed to authenticate to 192.168.1.29:5555
+
+C:\Users\dell\Downloads\platform-tools>adb connect 192.168.1.29
+already connected to 192.168.1.29:5555
+
+C:\Users\dell\Downloads\platform-tools>adb connect 192.168.1.29
+already connected to 192.168.1.29:5555
+
+C:\Users\dell\Downloads\platform-tools>adb disconnect 192.168.1.29
+disconnected 192.168.1.29
+
+C:\Users\dell\Downloads\platform-tools>adb connect 192.168.1.29
+failed to authenticate to 192.168.1.29:5555
+
+C:\Users\dell\Downloads\platform-tools>adb connect 192.168.1.29
+already connected to 192.168.1.29:5555
+
+C:\Users\dell\Downloads\platform-tools>adb connect 192.168.1.29
+already connected to 192.168.1.29:5555
+
+C:\Users\dell\Downloads\platform-tools>adb tcpip 5555
+error: more than one device/emulator
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+36503c0f        unauthorized
+192.168.1.29:5555       device
+
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+192.168.1.29:5555       unauthorized
+
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+192.168.1.29:5555       unauthorized
+
+
+C:\Users\dell\Downloads\platform-tools>adb disconnect 192.168.1.29
+disconnected 192.168.1.29
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+36503c0f        device
+
+
+C:\Users\dell\Downloads\platform-tools>adb devices
+List of devices attached
+36503c0f        device
+
+
+C:\Users\dell\Downloads\platform-tools>adb shell input "\1234345"
+Error: Unknown command: 1234345
+Usage: input [<source>] <command> [<arg>...]
+
+The sources are:
+      mouse
+      keyboard
+      joystick
+      touchnavigation
+      touchpad
+      trackball
+      stylus
+      dpad
+      touchscreen
+      gamepad
+
+The commands and default sources are:
+      text <string> (Default: touchscreen)
+      keyevent [--longpress] <key code number or name> ... (Default: keyboard)
+      tap <x> <y> (Default: touchscreen)
+      swipe <x1> <y1> <x2> <y2> [duration(ms)] (Default: touchscreen)
+      press (Default: trackball)
+      roll <dx> <dy> (Default: trackball)
+
+C:\Users\dell\Downloads\platform-tools>adb shell input text "\1234345"
+
+C:\Users\dell\Downloads\platform-tools>adb shell pm list packages -3
+package:com.phonepe.app
+package:com.whatsapp
+package:com.dogusumit.ortatus
+package:com.snapwork.hdfc
+package:com.instagram.android
+package:com.google.android.instantapps.supervisor
+package:com.larksuite.suite
+package:com.facebook.lite
+package:com.android.bbk.lockscreen3
+package:com.google.android.apps.nbu.paisa.user
+package:com.yozo.vivo.office
+
+C:\Users\dell\Downloads\platform-tools>adb install C:\Users\dell\Desktop\thundersoft\zapya.apk
+Performing Push Install
+C:\Users\dell\Desktop\thundersoft\zapya.apk: 1 file pushed, 0 skipped. 65.6 MB/s (4663660 bytes in 0.068s)
+        Origin path:/data/local/tmp/zapya.apk
+        Target path:/data/bbkcore/pmInstallAppTemp/zapya.apk
+        Create_Path:/data/bbkcore/pmInstallAppTemp/zapya.apk
+        ToFile:/data/bbkcore/pmInstallAppTemp/zapya.apk
+Success
+
+C:\Users\dell\Downloads\platform-tools>adb uninstall com.facebook.lite
+Success
+
+C:\Users\dell\Downloads\platform-tools>adb shell ps
+USER      PID   PPID  VSIZE  RSS   WCHAN            PC  NAME
+root      1     0     2804   784   SyS_epoll_ 00000000 S /init
+root      2     0     0      0       kthreadd 00000000 S kthreadd
+root      3     2     0      0     smpboot_th 00000000 S ksoftirqd/0
+root      5     2     0      0     worker_thr 00000000 S kworker/0:0H
+root      6     2     0      0     msm_mpm_wo 00000000 D kworker/u8:0
+root      7     2     0      0     rcu_gp_kth 00000000 S rcu_preempt
+root      8     2     0      0     rcu_gp_kth 00000000 S rcu_sched
+root      9     2     0      0     rcu_gp_kth 00000000 S rcu_bh
+root      10    2     0      0     smpboot_th 00000000 S migration/0
+root      11    2     0      0     smpboot_th 00000000 S migration/1
+root      12    2     0      0     smpboot_th 00000000 S ksoftirqd/1
+root      14    2     0      0     worker_thr 00000000 S kworker/1:0H
+root      15    2     0      0     smpboot_th 00000000 S migration/2
+root      16    2     0      0     smpboot_th 00000000 S ksoftirqd/2
+root      18    2     0      0     worker_thr 00000000 S kworker/2:0H
+root      19    2     0      0     smpboot_th 00000000 S migration/3
+root      20    2     0      0     smpboot_th 00000000 S ksoftirqd/3
+root      22    2     0      0     worker_thr 00000000 S kworker/3:0H
+root      23    2     0      0     rescuer_th 00000000 S khelper
+root      24    2     0      0     rescuer_th 00000000 S netns
+root      25    2     0      0     rescuer_th 00000000 S perf
+root      26    2     0      0     watchdog_k 00000000 S msm_watchdog
+root      27    2     0      0     rescuer_th 00000000 S smd_channel_clo
+root      28    2     0      0     rescuer_th 00000000 S smsm_cb_wq
+root      30    2     0      0     rescuer_th 00000000 S glink_tx
+root      31    2     0      0     rescuer_th 00000000 S glink_tx
+root      32    2     0      0     rescuer_th 00000000 S glink_tx
+root      33    2     0      0     rescuer_th 00000000 S glink_tx
+root      34    2     0      0     rescuer_th 00000000 S glink_tx
+root      35    2     0      0     irq_thread 00000000 S irq/152-cpr
+root      36    2     0      0     touchscree 00000000 S vivo-ts-kthread
+root      37    2     0      0     rescuer_th 00000000 S deferwq
+root      40    2     0      0     rescuer_th 00000000 S mpm
+root      49    2     0      0     rescuer_th 00000000 S writeback
+root      50    2     0      0     rescuer_th 00000000 S crypto
+root      51    2     0      0     rescuer_th 00000000 S bioset
+root      52    2     0      0     rescuer_th 00000000 S kblockd
+root      53    2     0      0     rescuer_th 00000000 S edac-poller
+root      54    2     0      0     ion_heap_d 00000000 S system
+root      55    2     0      0     irq_thread 00000000 S irq/35-msm_iomm
+root      56    2     0      0     irq_thread 00000000 S irq/37-msm_iomm
+root      57    2     0      0     irq_thread 00000000 S irq/294-msm_iom
+root      58    2     0      0     irq_thread 00000000 S irq/295-msm_iom
+root      59    2     0      0     irq_thread 00000000 S irq/296-msm_iom
+root      60    2     0      0     irq_thread 00000000 S irq/297-msm_iom
+root      61    2     0      0     irq_thread 00000000 S irq/298-msm_iom
+root      62    2     0      0     irq_thread 00000000 S irq/299-msm_iom
+root      63    2     0      0     irq_thread 00000000 S irq/300-msm_iom
+root      64    2     0      0     irq_thread 00000000 S irq/301-msm_iom
+root      65    2     0      0     irq_thread 00000000 S irq/302-msm_iom
+root      66    2     0      0     irq_thread 00000000 S irq/303-msm_iom
+root      67    2     0      0     irq_thread 00000000 S irq/304-msm_iom
+root      68    2     0      0     irq_thread 00000000 S irq/305-msm_iom
+root      69    2     0      0     irq_thread 00000000 S irq/306-msm_iom
+root      70    2     0      0     irq_thread 00000000 S irq/307-msm_iom
+root      71    2     0      0     irq_thread 00000000 S irq/308-msm_iom
+root      72    2     0      0     irq_thread 00000000 S irq/309-msm_iom
+root      73    2     0      0     irq_thread 00000000 S irq/310-msm_iom
+root      74    2     0      0     irq_thread 00000000 S irq/311-msm_iom
+root      75    2     0      0     irq_thread 00000000 S irq/312-msm_iom
+root      76    2     0      0     irq_thread 00000000 S irq/313-msm_iom
+root      77    2     0      0     irq_thread 00000000 S irq/314-msm_iom
+root      78    2     0      0     irq_thread 00000000 S irq/315-msm_iom
+root      79    2     0      0     rescuer_th 00000000 S devfreq_wq
+root      80    2     0      0     rescuer_th 00000000 S governor_msm_ad
+root      81    2     0      0     rescuer_th 00000000 S cfg80211
+root      82    2     0      0     irq_thread 00000000 S irq/132-bcl_vba
+root      83    2     0      0     irq_thread 00000000 S irq/131-bcl_iba
+root      104   2     0      0     rescuer_th 00000000 S power_off_alarm
+root      105   2     0      0         kswapd 00000000 S kswapd0
+root      106   2     0      0     fsnotify_m 00000000 S fsnotify_mark
+root      127   2     0      0     rescuer_th 00000000 S rot_commit_work
+root      128   2     0      0     worker_thr 00000000 S kworker/u9:0
+root      129   2     0      0     rescuer_th 00000000 S rot_workq_0
+root      130   2     0      0     dsi_event_ 00000000 D mdss_dsi_event
+root      131   2     0      0     rescuer_th 00000000 S mdss_dsi_dba
+root      132   2     0      0     rescuer_th 00000000 S glink_ssr_wq
+root      133   2     0      0     rescuer_th 00000000 S glink_lbsrv
+root      134   2     0      0     rescuer_th 00000000 S apr_driver
+root      135   2     0      0     rescuer_th 00000000 S mem_share_svc
+root      136   2     0      0     rescuer_th 00000000 S qmi_hndl0000000
+root      137   2     0      0     rescuer_th 00000000 S msm_ipc_router
+root      138   2     0      0     add_hwgene 00000000 S hwrng
+root      140   2     0      0     rescuer_th 00000000 S diag_real_time_
+root      141   2     0      0     rescuer_th 00000000 S diag_wq
+root      142   2     0      0     rescuer_th 00000000 S DIAG_USB_diag
+root      143   2     0      0     rescuer_th 00000000 S diag_cntl_wq
+root      144   2     0      0     rescuer_th 00000000 S diag_dci_wq
+root      145   2     0      0     rescuer_th 00000000 S DIAG_SMD_MODEM_
+root      146   2     0      0     rescuer_th 00000000 S DIAG_SMD_MODEM_
+root      147   2     0      0     rescuer_th 00000000 S DIAG_SMD_MODEM_
+root      148   2     0      0     rescuer_th 00000000 S DIAG_SMD_MODEM_
+root      149   2     0      0     rescuer_th 00000000 S DIAG_SMD_MODEM_
+root      150   2     0      0     rescuer_th 00000000 S DIAG_SMD_LPASS_
+root      151   2     0      0     rescuer_th 00000000 S DIAG_SMD_LPASS_
+root      152   2     0      0     rescuer_th 00000000 S DIAG_SMD_LPASS_
+root      153   2     0      0     rescuer_th 00000000 S DIAG_SMD_LPASS_
+root      154   2     0      0     rescuer_th 00000000 S DIAG_SMD_LPASS_
+root      155   2     0      0     rescuer_th 00000000 S DIAG_SMD_WCNSS_
+root      156   2     0      0     rescuer_th 00000000 S DIAG_SMD_WCNSS_
+root      157   2     0      0     rescuer_th 00000000 S DIAG_SMD_WCNSS_
+root      158   2     0      0     rescuer_th 00000000 S DIAG_SMD_WCNSS_
+root      159   2     0      0     rescuer_th 00000000 S DIAG_SMD_WCNSS_
+root      160   2     0      0     rescuer_th 00000000 S DIAG_SMD_SENSOR
+root      161   2     0      0     rescuer_th 00000000 S DIAG_SMD_SENSOR
+root      162   2     0      0     rescuer_th 00000000 S DIAG_SMD_SENSOR
+root      163   2     0      0     rescuer_th 00000000 S DIAG_SMD_SENSOR
+root      164   2     0      0     rescuer_th 00000000 S DIAG_SMD_SENSOR
+root      165   2     0      0     rescuer_th 00000000 S DIAG_SOCKMODEM_
+root      166   2     0      0     rescuer_th 00000000 S DIAG_SOCKMODEM_
+root      167   2     0      0     rescuer_th 00000000 S DIAG_SOCKMODEM_
+root      168   2     0      0     rescuer_th 00000000 S DIAG_SOCKMODEM_
+root      169   2     0      0     rescuer_th 00000000 S DIAG_SOCKMODEM_
+root      170   2     0      0     rescuer_th 00000000 S DIAG_SOCKLPASS_
+root      171   2     0      0     rescuer_th 00000000 S DIAG_SOCKLPASS_
+root      172   2     0      0     rescuer_th 00000000 S DIAG_SOCKLPASS_
+root      173   2     0      0     rescuer_th 00000000 S DIAG_SOCKLPASS_
+root      174   2     0      0     rescuer_th 00000000 S DIAG_SOCKLPASS_
+root      175   2     0      0     rescuer_th 00000000 S DIAG_SOCKWCNSS_
+root      176   2     0      0     rescuer_th 00000000 S DIAG_SOCKWCNSS_
+root      177   2     0      0     rescuer_th 00000000 S DIAG_SOCKWCNSS_
+root      178   2     0      0     rescuer_th 00000000 S DIAG_SOCKWCNSS_
+root      179   2     0      0     rescuer_th 00000000 S DIAG_SOCKWCNSS_
+root      180   2     0      0     rescuer_th 00000000 S DIAG_SOCKSENSOR
+root      181   2     0      0     rescuer_th 00000000 S DIAG_SOCKSENSOR
+root      182   2     0      0     rescuer_th 00000000 S DIAG_SOCKSENSOR
+root      183   2     0      0     rescuer_th 00000000 S DIAG_SOCKSENSOR
+root      184   2     0      0     rescuer_th 00000000 S DIAG_SOCKSENSOR
+root      185   2     0      0     rescuer_th 00000000 S DIAG_CNTL_SOCKE
+root      186   2     0      0     rescuer_th 00000000 S kgsl-workqueue
+root      187   2     0      0     rescuer_th 00000000 S kgsl-mementry
+root      188   2     0      0     rescuer_th 00000000 S kgsl-events
+root      189   2     0      0     rescuer_th 00000000 S kgsl_devfreq_wq
+root      190   2     0      0     rescuer_th 00000000 S qcrypto_seq_res
+root      211   2     0      0     rescuer_th 00000000 S usbnet
+root      213   2     0      0     rescuer_th 00000000 S sharedmem_qmi_w
+root      214   2     0      0     rescuer_th 00000000 S qmi_hndl0000000
+root      215   2     0      0     rescuer_th 00000000 S k_gserial
+root      216   2     0      0     rescuer_th 00000000 S k_ipa_usb
+root      217   2     0      0     rescuer_th 00000000 S uether
+root      218   2     0      0     rescuer_th 00000000 S k_gbridge
+root      219   2     0      0     rescuer_th 00000000 S msm_vidc_worker
+root      220   2     0      0     rescuer_th 00000000 S pm_workerq_venu
+root      221   2     0      0     rescuer_th 00000000 S msm_cci_wq
+root      222   2     0      0     rescuer_th 00000000 S msm_cci_wq
+root      223   2     0      0     rescuer_th 00000000 S msm_cpp_workque
+root      224   2     0      0     irq_thread 00000000 S irq/121-soft-co
+root      225   2     0      0     irq_thread 00000000 S irq/122-soft-ho
+root      226   2     0      0     irq_thread 00000000 S irq/127-batt-mi
+root      227   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      228   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      229   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      230   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      231   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      232   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      233   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      234   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      235   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      236   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      237   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      238   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      239   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      240   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      241   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      242   2     0      0     irq_thread 00000000 S irq/48-tsens_in
+root      243   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      245   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      246   2     0      0     rescuer_th 00000000 S dm_bufio_cache
+root      247   2     0      0     cpufreq_in 00000000 S cfinteractive
+root      248   2     0      0     irq_thread 00000000 S irq/146-7824900
+root      249   2     0      0     irq_thread 00000000 S irq/145-mmc0
+root      250   2     0      0     irq_thread 00000000 S irq/148-7864900
+root      251   2     0      0     irq_thread 00000000 S irq/147-mmc1
+root      252   2     0      0     irq_thread 00000000 S irq/220-7864900
+root      253   2     0      0     irq_thread 00000000 S irq/133-qpnp_wl
+root      254   2     0      0     rescuer_th 00000000 S binder
+root      255   2     0      0     irq_thread 00000000 S irq/134-qpnp_sc
+root      256   2     0      0     irq_thread 00000000 S irq/44-spdm_bw_
+root      257   2     0      0     mmc_cmdq_t 00000000 D mmc-cmdqd/0
+root      258   2     0      0     mmc_queue_ 00000000 S mmcqd/0rpmb
+root      259   2     0      0     rescuer_th 00000000 S ipv6_addrconf
+root      260   2     0      0     rfcomm_run 00000000 S krfcommd
+root      264   2     0      0     irq_thread 00000000 S irq/478-adsp
+root      265   2     0      0     rescuer_th 00000000 S sysmon_wq
+root      266   2     0      0     rescuer_th 00000000 S qmi_svc_event_w
+root      267   2     0      0     irq_thread 00000000 S irq/510-wcnss
+root      268   2     0      0     irq_thread 00000000 S irq/446-modem
+root      273   2     0      0     sensor_sys 00000000 S therm_core:noti
+root      274   2     0      0     irq_thread 00000000 S irq/83-chg-erro
+root      275   2     0      0     irq_thread 00000000 S irq/89-chg-tape
+root      276   2     0      0     irq_thread 00000000 S irq/90-chg-tcc-
+root      277   2     0      0     irq_thread 00000000 S irq/88-chg-rech
+root      278   2     0      0     irq_thread 00000000 S irq/87-chg-p2f-
+root      279   2     0      0     irq_thread 00000000 S irq/93-usbid-ch
+root      280   2     0      0     irq_thread 00000000 S irq/92-otg-oc
+root      281   2     0      0     irq_thread 00000000 S irq/91-otg-fail
+root      282   2     0      0     irq_thread 00000000 S irq/94-batt-hot
+root      283   2     0      0     irq_thread 00000000 S irq/95-batt-war
+root      284   2     0      0     irq_thread 00000000 S irq/97-batt-coo
+root      285   2     0      0     irq_thread 00000000 S irq/96-batt-col
+root      286   2     0      0     irq_thread 00000000 S irq/100-batt-mi
+root      287   2     0      0     irq_thread 00000000 S irq/99-batt-low
+root      288   2     0      0     irq_thread 00000000 S irq/102-usbin-u
+root      289   2     0      0     irq_thread 00000000 S irq/103-usbin-o
+root      290   2     0      0     irq_thread 00000000 S irq/104-usbin-s
+root      291   2     0      0     irq_thread 00000000 S irq/105-aicl-do
+root      292   2     0      0     irq_thread 00000000 S irq/106-dcin-uv
+root      293   2     0      0     irq_thread 00000000 S irq/108-power-o
+root      294   2     0      0     irq_thread 00000000 S irq/109-temp-sh
+root      295   2     0      0     irq_thread 00000000 S irq/110-wdog-ti
+root      296   2     0      0     rescuer_th 00000000 S rq_stats
+root      297   2     0      0     rescuer_th 00000000 S usb_bam_wq
+root      298   2     0      0     events_not 00000000 S msm_perf:events
+root      299   2     0      0     rescuer_th 00000000 S bam_dmux_rx
+root      300   2     0      0     rescuer_th 00000000 S bam_dmux_tx
+root      301   2     0      0     rescuer_th 00000000 S k_bam_data
+root      302   2     0      0     rescuer_th 00000000 S f_mtp
+root      303   2     0      0     rescuer_th 00000000 S goodix_wq
+root      304   2     0      0     rescuer_th 00000000 S gtp_esd_check
+root      305   2     0      0     rescuer_th 00000000 S gt970_fb_notifi
+root      306   2     0      0     rescuer_th 00000000 S gtp_err_wq
+root      308   2     0      0     worker_thr 00000000 S kworker/1:1H
+root      309   2     0      0     do_hotplug 00000000 S msm_thermal:hot
+root      310   2     0      0     do_freq_mi 00000000 S msm_thermal:fre
+root      311   2     0      0     do_thermal 00000000 S msm_thermal:the
+root      312   1     2544   444   poll_sched 00000000 S /sbin/ueventd
+root      315   2     0      0     worker_thr 00000000 S kworker/0:1H
+root      316   2     0      0     rescuer_th 00000000 S kdmflush
+root      317   2     0      0     rescuer_th 00000000 S bioset
+root      318   2     0      0     rescuer_th 00000000 S kverityd
+root      319   2     0      0     rescuer_th 00000000 S bioset
+root      320   2     0      0     kjournald2 00000000 S jbd2/dm-0-8
+root      321   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      322   2     0      0     rescuer_th 00000000 S kdmflush
+root      323   2     0      0     rescuer_th 00000000 S bioset
+root      324   2     0      0     rescuer_th 00000000 S kverityd
+root      325   2     0      0     rescuer_th 00000000 S bioset
+root      326   2     0      0     kjournald2 00000000 S jbd2/dm-1-8
+root      327   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      328   2     0      0     kjournald2 00000000 S jbd2/mmcblk0p50
+root      329   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      332   2     0      0     kjournald2 00000000 S jbd2/mmcblk0p25
+root      333   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      334   2     0      0     kjournald2 00000000 S jbd2/mmcblk0p26
+root      335   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      336   2     0      0     kjournald2 00000000 S jbd2/mmcblk0p12
+root      337   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+logd      338   1     14936  3536  sigsuspend 00000000 S /system/bin/logd
+root      343   2     0      0     kauditd_th 00000000 S kauditd
+root      346   1     45540  628   hrtimer_na 00000000 S /system/bin/vold
+root      352   2     0      0     worker_thr 00000000 S kworker/u8:2
+root      363   2     0      0     rescuer_th 00000000 S IPCRTR
+root      408   1     9568   272   SyS_epoll_ 00000000 S /sbin/healthd
+root      409   1     3068   388   SyS_epoll_ 00000000 S /system/bin/lmkd
+system    410   1     3120   576   binder_thr 00000000 S /system/bin/servicemanager
+system    411   1     60608  5436  SyS_epoll_ 00000000 S /system/bin/surfaceflinger
+nobody    414   1     9416   440   poll_sched 00000000 S /system/bin/rmt_storage
+system    420   1     6180   352      do_wait 00000000 S /system/bin/qseecomd
+system    421   1     10532  272   do_sigtime 00000000 S /system/bin/pm-service
+system    434   1     7756   352   hrtimer_na 00000000 S /system/bin/pm-proxy
+u0_a142   444   31061 917232 48528 SyS_epoll_ 00000000 S com.emoji.keyboard.touchpal.vivo
+system    463   420   16708  188   sigsuspend 00000000 S /system/bin/qseecomd
+root      605   2     0      0     rescuer_th 00000000 S IPCRTR
+root      606   2     0      0     rescuer_th 00000000 S modem_IPCRTR
+root      607   2     0      0     rescuer_th 00000000 S kdmflush
+root      608   2     0      0     rescuer_th 00000000 S bioset
+root      613   2     0      0     rescuer_th 00000000 S qmi_hndl0000000
+root      618   2     0      0     kjournald2 00000000 S jbd2/dm-2-8
+root      619   2     0      0     rescuer_th 00000000 S ext4-rsv-conver
+root      621   2     0      0     worker_thr 00000000 S kworker/2:1H
+root      623   1     4080   408   __skb_recv 00000000 S /system/bin/debuggerd
+radio     624   1     96000  1968  hrtimer_na 00000000 S /system/bin/rild
+drm       625   1     29492  440   binder_thr 00000000 S /system/bin/drmserver
+root      627   1     5496   752              00000000 R /system/bin/installd
+keystore  629   1     8028   1012  binder_thr 00000000 S /system/bin/keystore
+system    631   1     6596   948   binder_thr 00000000 S /system/bin/getuk
+root      632   1     8680   412   poll_sched 00000000 S /system/bin/qcom-system-daemon
+system    634   1     59152  864   SyS_epoll_ 00000000 S /system/bin/cnd
+rfs       635   1     3288   352   poll_sched 00000000 S /system/bin/tftp_server
+wifi      636   1     5800   496   poll_sched 00000000 S /system/bin/ptt_socket_app
+root      637   1     54432  352   sigsuspend 00000000 S /system/vendor/bin/thermal-engine
+system    638   1     7668   340   wcnss_wlan 00000000 S /system/bin/wcnss_service
+media     640   1     5384   476   poll_sched 00000000 S /system/bin/adsprpcd
+system    641   1     3148   460   SyS_epoll_ 00000000 S /system/bin/hvdcp_opti
+root      643   1     34496  716   binder_thr 00000000 S /system/bin/vivo_daemon
+root      644   1     5628   416   binder_thr 00000000 S /system/bin/EncodeService
+system    645   1     5480   444   binder_thr 00000000 S /system/bin/gatekeeperd
+system    653   1     8712   356   __skb_recv 00000000 S /system/bin/cnss-daemon
+gps       654   1     4768   616   sigsuspend 00000000 S /system/bin/loc_launcher
+system    656   31061 828632 25600 SyS_epoll_ 00000000 S com.vivo.permissionmanager
+system    658   1     51364  484   binder_thr 00000000 S /system/vendor/bin/qseeproxydaemon
+camera    659   1     312628 1088  poll_sched 00000000 S /system/bin/mm-qcamera-daemon
+system    660   1     12072  384   futex_wait 00000000 S /system/bin/time_daemon
+system    661   1     29300  392   binder_thr 00000000 S /system/bin/audiod
+system    662   1     18180  420   binder_thr 00000000 S /system/vendor/bin/mdtpd
+u0_a25    667   31061 865668 44352 SyS_epoll_ 00000000 S com.vivo.appstore
+gps       686   654   13860  520   futex_wait 00000000 S lowi-server
+gps       687   654   19696  228   futex_wait 00000000 S xtwifi-inet-agent
+gps       688   654   28056  432   futex_wait 00000000 S xtwifi-client
+gps       689   654   19112  340   poll_sched 00000000 S slim_daemon
+radio     726   1     8340   396   poll_sched 00000000 S /system/bin/qmuxd
+system    803   1     5624   340   poll_sched 00000000 S /system/bin/ipacm-diag
+net_admin 820   1     8940   452   futex_wait 00000000 S /system/bin/ipacm
+radio     831   1     86980  440   hrtimer_na 00000000 S /system/bin/rild
+root      837   2     0      0     worker_thr 00000000 S kworker/3:1H
+radio     840   1     10072  376   poll_sched 00000000 S /system/vendor/bin/qti
+system    844   1     8800   384   poll_sched 00000000 S /system/bin/imsqmidaemon
+radio     846   1     96600  964   __skb_recv 00000000 S /system/bin/netmgrd
+system    870   1     25108  420   poll_sched 00000000 S /system/bin/imsdatadaemon
+system    879   31061 709796 13432 SyS_epoll_ 00000000 S com.qti.service.colorservice
+system    916   1     268556 656   __skb_recv 00000000 S /system/bin/ims_rtp_daemon
+system    917   1     56872  468   binder_thr 00000000 S /system/bin/imscmservice
+root      929   2     0      0     rescuer_th 00000000 S IPCRTR
+root      935   2     0      0     rescuer_th 00000000 S wcnss_IPCRTR
+u0_a11    949   31061 1059692 54192 SyS_epoll_ 00000000 S com.google.android.gms
+system    1356  31061 715520 16212 SyS_epoll_ 00000000 S com.volte.config
+root      1503  31070 0      0        do_exit 00000000 Z clatd
+u0_a30    1815  31061 731332 24688 SyS_epoll_ 00000000 S com.facebook.services
+system    1880  1     15628  408   binder_thr 00000000 S /system/bin/face_detect
+u0_a11    2058  31061 719020 22556 SyS_epoll_ 00000000 S com.google.process.gapps
+root      2335  2     0      0     worker_thr 00000000 S kworker/0:1
+u0_a18    2463  31061 904772 67644 SyS_epoll_ 00000000 S com.android.vending
+u0_a6     2583  31061 710520 19640 SyS_epoll_ 00000000 S com.android.defcontainer
+u0_a8     2670  31061 716496 24756 SyS_epoll_ 00000000 S android.process.media
+u0_a24    2809  31061 1437136 90168 SyS_epoll_ 00000000 S com.google.android.googlequicksearchbox:search
+u0_a117   2904  31061 1149320 46416 SyS_epoll_ 00000000 S com.google.android.apps.photos
+system    2931  31061 709608 18684 SyS_epoll_ 00000000 S com.qualcomm.display
+u0_a163   2963  31061 733084 27852 SyS_epoll_ 00000000 S com.facebook.appmanager
+u0_a59    2999  31061 714568 21844 SyS_epoll_ 00000000 S com.android.documentsui
+u0_a8     3026  31061 713220 22636 SyS_epoll_ 00000000 S com.android.providers.downloads
+u0_a55    3052  31061 750204 29336 SyS_epoll_ 00000000 S com.android.chrome
+u0_a10    3074  31061 709484 20124 SyS_epoll_ 00000000 S com.android.externalstorage
+system    3094  31061 715992 23084 SyS_epoll_ 00000000 S com.vivo.appfilter
+shell     3114  31061 710292 19712 SyS_epoll_ 00000000 S com.android.shell
+u0_a88    3141  31061 776116 35556 SyS_epoll_ 00000000 S com.iqoo.secure
+u0_a61    3155  31061 1049844 67256 SyS_epoll_ 00000000 S com.google.android.apps.docs
+u0_a129   3240  31061 1049972 33056 SyS_epoll_ 00000000 S com.vivo.launcher.scene.comm
+u0_a60    3254  31061 714124 27284 SyS_epoll_ 00000000 S com.vivo.widget
+root      3335  2     0      0     irq_thread 00000000 S irq/138-408000.
+system    3383  31061 711788 26664 SyS_epoll_ 00000000 S org.simalliance.openmobileapi.service:remote
+system    3400  31061 712424 25744 SyS_epoll_ 00000000 S com.iqoo.powersaving
+root      3413  1     8684   420   futex_wait 00000000 S /system/vendor/bin/perfd
+shell     3416  28867 2812   1072           0 b6dcbfd8 R ps
+root      3421  2     0      0     notify_use 00000000 S wrkld_notify
+system    3694  31061 727364 22608 SyS_epoll_ 00000000 S com.vivo.abe:bin
+root      3905  2     0      0     worker_thr 00000000 S kworker/u8:9
+u0_a11    4444  31061 1002696 85164 SyS_epoll_ 00000000 S com.google.android.gms.persistent
+root      5219  1     24268  384   hrtimer_na 00000000 S /system/bin/vivo_em_svr
+u0_a38    5559  31061 1229104 56756 SyS_epoll_ 00000000 S com.bbk.launcher2
+root      6370  846   0      0        do_exit 00000000 Z ip6tables
+system    8278  31061 712212 17880 SyS_epoll_ 00000000 S com.vivo.doubleinstance
+root      8789  2     0      0     worker_thr 00000000 S kworker/u8:4
+root      8790  2     0      0     worker_thr 00000000 S kworker/u8:5
+u0_a24    9034  31061 1397940 39408 SyS_epoll_ 00000000 S com.google.android.googlequicksearchbox:interactor
+root      9797  846   0      0        do_exit 00000000 Z ip6tables
+root      10026 846   0      0        do_exit 00000000 Z ip6tables
+root      10116 2     0      0     worker_thr 00000000 S kworker/u8:8
+root      10308 846   0      0        do_exit 00000000 Z ip6tables
+sensors   10732 1     27208  604   poll_sched 00000000 S /system/bin/sensors.qcom
+root      10833 2     0      0     rescuer_th 00000000 S adsp_IPCRTR
+root      10850 2     0      0     rescuer_th 00000000 S qmi_hndl0000000
+root      10855 2     0      0     irq_thread 00000000 S irq/65-mbhc sw
+root      10856 2     0      0     irq_thread 00000000 S irq/63-Button P
+root      10857 2     0      0     irq_thread 00000000 S irq/62-Button R
+root      10858 2     0      0     irq_thread 00000000 S irq/61-Elect In
+root      10859 2     0      0     irq_thread 00000000 S irq/64-Elect Re
+root      10860 2     0      0     irq_thread 00000000 S irq/68-HPH_L OC
+root      10861 2     0      0     irq_thread 00000000 S irq/67-HPH_R OC
+root      10862 2     0      0     irq_thread 00000000 S irq/154-headset
+u0_a174   12186 31061 912280 52668 SyS_epoll_ 00000000 S com.whatsapp
+u0_a165   15048 31061 1039644 76060 SyS_epoll_ 00000000 S com.google.android.marvin.talkback
+u0_a71    15105 31061 819304 32124 SyS_epoll_ 00000000 S com.google.android.tts
+root      15641 2     0      0     worker_thr 00000000 S kworker/u9:1
+root      16733 846   0      0        do_exit 00000000 Z ip6tables
+root      18543 2     0      0     worker_thr 00000000 S kworker/u8:1
+root      19260 2     0      0     worker_thr 00000000 S kworker/u8:6
+root      19543 2     0      0     mdss_mdp_v 00000000 D mdss_fb0
+root      23406 2     0      0     worker_thr 00000000 S kworker/0:0
+root      24064 846   0      0        do_exit 00000000 Z ip6tables
+root      24087 2     0      0     worker_thr 00000000 S kworker/1:0
+root      24741 1     7188   740   unix_strea 00000000 S /system/bin/dpmd
+system    24747 24741 11944  724   SyS_epoll_ 00000000 S /system/bin/dpmd
+radio     25204 31061 742372 33584 SyS_epoll_ 00000000 S com.android.incallui
+root      26298 846   0      0        do_exit 00000000 Z ip6tables
+root      26655 846   0      0        do_exit 00000000 Z iptables
+root      27314 2     0      0     worker_thr 00000000 S kworker/3:2
+root      27559 2     0      0     worker_thr 00000000 S kworker/2:1
+root      28141 2     0      0     worker_thr 00000000 S kworker/0:3
+root      28420 2     0      0     worker_thr 00000000 S kworker/u8:3
+root      28858 2     0      0     worker_thr 00000000 S kworker/3:1
+shell     28867 1     7084   492   poll_sched 00000000 S /sbin/adbd
+root      29293 2     0      0     worker_thr 00000000 S kworker/2:2
+root      29397 2     0      0     worker_thr 00000000 S kworker/1:3
+root      30204 2     0      0     worker_thr 00000000 S kworker/2:0
+root      30291 2     0      0     worker_thr 00000000 S kworker/1:1
+root      30308 2     0      0     worker_thr 00000000 S kworker/3:0
+u0_a88    30351 31061 815928 44052 SyS_epoll_ 00000000 S com.iqoo.secure:remote
+u0_a143   30893 31061 723572 16540 SyS_epoll_ 00000000 S com.bbk.updater:remote
+root      31061 1     1032732 18296 poll_sched 00000000 S zygote
+system    31062 1     49508  564   poll_sched 00000000 S /system/vendor/bin/mm-pp-dpps
+root      31070 1     20192  960   hrtimer_na 00000000 S /system/bin/netd
+media     31071 1     394564 5640  binder_thr 00000000 S /system/bin/mediaserver
+system    31273 31061 2032760 139148 SyS_epoll_ 00000000 S system_server
+root      31621 2     0      0     VosWDThrea 00000000 S VosWDThread
+root      31623 2     0      0     VosMCThrea 00000000 S VosMCThread
+root      31624 2     0      0     VosTXThrea 00000000 S VosTXThread
+root      31625 2     0      0     VosRXThrea 00000000 S VosRXThread
+root      31630 2     0      0     wlan_loggi 00000000 S wlan_logging_th
+u0_a23    31681 31061 968908 59604 SyS_epoll_ 00000000 S com.android.systemui
+root      31689 2     0      0     inotify_re 00000000 S pkgld
+wifi      31691 1     19492  840   poll_sched 00000000 S /system/bin/wpa_supplicant
+root      31697 2     0      0     inotify_re 00000000 S pkgld
+root      31698 2     0      0     inotify_re 00000000 S pkgld
+system    31736 31061 812540 31604 SyS_epoll_ 00000000 S com.vivo.abe
+system    31863 31061 764128 27760 SyS_epoll_ 00000000 S com.vivo.daemonService
+system    31961 31061 741960 27992            00000000 R com.vivo.pem
+u0_a97    32032 31061 720976 15804 SyS_epoll_ 00000000 S com.bbk.iqoo.logsystem
+system    32052 31061 729288 17928 SyS_epoll_ 00000000 S com.vivo.rms
+system    32269 31061 715856 17896 SyS_epoll_ 00000000 S com.quicinc.cne.CNEService
+system    32278 31061 711780 14356 SyS_epoll_ 00000000 S com.qualcomm.qti.GBAHttpAuthentication.auth
+system    32285 31061 712804 15248 SyS_epoll_ 00000000 S com.qti.dpmserviceapp
+system    32310 31061 722048 23760 SyS_epoll_ 00000000 S com.android.server.telecom
+system    32317 31061 718236 14180 SyS_epoll_ 00000000 S com.qualcomm.qti.tetherservice
+system    32329 31061 789896 30628 SyS_epoll_ 00000000 S com.vivo.upslide
+radio     32348 31061 828120 42900 SyS_epoll_ 00000000 S com.android.phone
+radio     32671 31061 714260 14852 SyS_epoll_ 00000000 S com.qualcomm.qcrilmsgtunnel
+
+C:\Users\dell\Downloads\platform-tools>adb shell logcat -v threadtime rakesh.txt
+--------- beginning of crash
+03-26 08:14:03.833  2632  2632 E AndroidRuntime: FATAL EXCEPTION: main
+03-26 08:14:03.833  2632  2632 E AndroidRuntime: Process: com.android.phone, PID: 2632
+03-26 08:14:03.833  2632  2632 E AndroidRuntime: java.lang.RuntimeException: android.os.DeadObjectException
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.net.TrafficStats.getMobileIfaces(TrafficStats.java:628)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.net.TrafficStats.getMobileTcpTxPackets(TrafficStats.java:372)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at com.android.internal.telephony.dataconnection.DcTrackerBase$TxRxSum.updateTxRxSum(DcTrackerBase.java:531)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at com.android.internal.telephony.dataconnection.DcTrackerBase.updateDataActivity(DcTrackerBase.java:1585)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at com.android.internal.telephony.dataconnection.DcTrackerBase$3.run(DcTrackerBase.java:393)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.os.Handler.handleCallback(Handler.java:739)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.os.Handler.dispatchMessage(Handler.java:95)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.os.Looper.loop(Looper.java:148)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.app.ActivityThread.main(ActivityThread.java:5619)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at java.lang.reflect.Method.invoke(Native Method)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:853)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:737)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime: Caused by: android.os.DeadObjectException
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.os.BinderProxy.transactNative(Native Method)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.os.BinderProxy.transact(Binder.java:503)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.net.INetworkStatsService$Stub$Proxy.getMobileIfaces(INetworkStatsService.java:273)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.net.TrafficStats.getMobileIfaces(TrafficStats.java:626)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        ... 11 more
+03-26 08:14:03.878  2632  2632 E AndroidRuntime: Error reporting crash
+03-26 08:14:03.878  2632  2632 E AndroidRuntime: android.os.DeadObjectException
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at android.os.BinderProxy.transactNative(Native Method)
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at android.os.BinderProxy.transact(Binder.java:503)
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at android.app.ActivityManagerProxy.handleApplicationCrash(ActivityManagerNative.java:4549)
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:90)
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+--------- beginning of system
+03-31 08:45:14.661  8944  9092 E ActivityThread: Failed to find provider info for com.vivo.abe.exidentifier
+03-31 13:24:39.188   623   623 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-31 13:24:39.188   623   623 F DEBUG   : Build fingerprint: 'vivo/1606/1606:6.0.1/MMB29M/compiler12150122:user/release-keys'
+03-31 13:24:39.188   623   623 F DEBUG   : Revision: '0'
+03-31 13:24:39.188   623   623 F DEBUG   : ABI: 'arm'
+03-31 13:24:39.188   623   623 F DEBUG   : pid: 782, tid: 782, name: dpmd  >>> /system/bin/dpmd <<<
+03-31 13:24:39.188   623   623 F DEBUG   : signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0xb694047c
+03-31 13:24:39.218   623   623 F DEBUG   :     r0 00000004  r1 bec66314  r2 00000005  r3 b694047c
+03-31 13:24:39.218   623   623 F DEBUG   :     r4 bec66868  r5 00000009  r6 b69c6438  r7 0000000a
+03-31 13:24:39.218   623   623 F DEBUG   :     r8 bec6686c  r9 bec662a8  sl bec662a4  fp 0000000d
+03-31 13:24:39.218   623   623 F DEBUG   :     ip b6ee4b08  sp bec66298  lr b6ed3e07  pc b694047c  cpsr a0010010
+03-31 13:24:39.233   623   623 F DEBUG   :
+03-31 13:24:39.233   623   623 F DEBUG   : backtrace:
+03-31 13:24:39.233   623   623 F DEBUG   :     #00 pc 0000047c  [anon:libc_malloc]
+03-31 13:24:39.233   623   623 F DEBUG   :     #01 pc 00013e05  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI11DpmDsmEventE13dispatchEventES0_PKv+84)
+03-31 13:24:39.233   623   623 F DEBUG   :     #02 pc 0001535b  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm15handleWwanEventEP15DpmWwanInfoType+942)
+03-31 13:24:39.233   623   623 F DEBUG   :     #03 pc 0001612d  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm13processDpmCmdE14DpmMsgEnumTypePKvPv+248)
+03-31 13:24:39.233   623   623 F DEBUG   :     #04 pc 0000eabd  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI14DpmMsgEnumTypeE13dispatchEventES0_PKv+84)
+03-31 13:24:39.233   623   623 F DEBUG   :     #05 pc 0000ecd9  /system/vendor/lib/libdpmframework.so (_ZN3Dpm19unparcelAndDispatchEiPS_Pvj+372)
+03-31 13:24:39.233   623   623 F DEBUG   :     #06 pc 0000edcd  /system/vendor/lib/libdpmframework.so (_ZN3Dpm15processDpmEventEiPv+136)
+03-31 13:24:39.233   623   623 F DEBUG   :     #07 pc 00012443  /system/vendor/lib/libdpmframework.so (_ZN6DpmCom13processEventsEiR8DpmTimer+450)
+03-31 13:24:39.233   623   623 F DEBUG   :     #08 pc 0000e093  /system/vendor/lib/libdpmframework.so (_ZN3Dpm3runEv+258)
+03-31 13:24:39.233   623   623 F DEBUG   :     #09 pc 00003fab  /system/bin/dpmd
+03-31 13:24:39.233   623   623 F DEBUG   :     #10 pc 000015fb  /system/bin/dpmd
+03-31 13:24:39.233   623   623 F DEBUG   :     #11 pc 000012e1  /system/bin/dpmd
+03-31 13:24:39.233   623   623 F DEBUG   :     #12 pc 000173c9  /system/lib/libc.so (__libc_init+44)
+03-31 13:24:39.233   623   623 F DEBUG   :     #13 pc 000014b4  /system/bin/dpmd
+03-31 13:24:39.309   623   623 F DEBUG   :
+03-31 13:24:39.309   623   623 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_07
+03-31 13:35:16.627   623   623 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-31 13:35:16.627   623   623 F DEBUG   : Build fingerprint: 'vivo/1606/1606:6.0.1/MMB29M/compiler12150122:user/release-keys'
+03-31 13:35:16.627   623   623 F DEBUG   : Revision: '0'
+03-31 13:35:16.627   623   623 F DEBUG   : ABI: 'arm'
+03-31 13:35:16.627   623   623 F DEBUG   : pid: 21621, tid: 21621, name: dpmd  >>> /system/bin/dpmd <<<
+03-31 13:35:16.628   623   623 F DEBUG   : signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0xb6a0047c
+03-31 13:35:16.719   623   623 F DEBUG   :     r0 00000004  r1 be9f3314  r2 00000005  r3 b6a0047c
+03-31 13:35:16.720   623   623 F DEBUG   :     r4 be9f3868  r5 00000009  r6 b6a861e0  r7 0000000a
+03-31 13:35:16.720   623   623 F DEBUG   :     r8 be9f386c  r9 be9f32a8  sl be9f32a4  fp 0000000d
+03-31 13:35:16.720   623   623 F DEBUG   :     ip b6f80b08  sp be9f3298  lr b6f6fe07  pc b6a0047c  cpsr a0010010
+03-31 13:35:16.727   623   623 F DEBUG   :
+03-31 13:35:16.727   623   623 F DEBUG   : backtrace:
+03-31 13:35:16.728   623   623 F DEBUG   :     #00 pc 0000047c  [anon:libc_malloc]
+03-31 13:35:16.728   623   623 F DEBUG   :     #01 pc 00013e05  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI11DpmDsmEventE13dispatchEventES0_PKv+84)
+03-31 13:35:16.728   623   623 F DEBUG   :     #02 pc 0001535b  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm15handleWwanEventEP15DpmWwanInfoType+942)
+03-31 13:35:16.728   623   623 F DEBUG   :     #03 pc 0001612d  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm13processDpmCmdE14DpmMsgEnumTypePKvPv+248)
+03-31 13:35:16.728   623   623 F DEBUG   :     #04 pc 0000eabd  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI14DpmMsgEnumTypeE13dispatchEventES0_PKv+84)
+03-31 13:35:16.728   623   623 F DEBUG   :     #05 pc 0000ecd9  /system/vendor/lib/libdpmframework.so (_ZN3Dpm19unparcelAndDispatchEiPS_Pvj+372)
+03-31 13:35:16.728   623   623 F DEBUG   :     #06 pc 0000edcd  /system/vendor/lib/libdpmframework.so (_ZN3Dpm15processDpmEventEiPv+136)
+03-31 13:35:16.728   623   623 F DEBUG   :     #07 pc 00012443  /system/vendor/lib/libdpmframework.so (_ZN6DpmCom13processEventsEiR8DpmTimer+450)
+03-31 13:35:16.728   623   623 F DEBUG   :     #08 pc 0000e093  /system/vendor/lib/libdpmframework.so (_ZN3Dpm3runEv+258)
+03-31 13:35:16.728   623   623 F DEBUG   :     #09 pc 00003fab  /system/bin/dpmd
+03-31 13:35:16.728   623   623 F DEBUG   :     #10 pc 000015fb  /system/bin/dpmd
+03-31 13:35:16.728   623   623 F DEBUG   :     #11 pc 000012e1  /system/bin/dpmd
+03-31 13:35:16.728   623   623 F DEBUG   :     #12 pc 000173c9  /system/lib/libc.so (__libc_init+44)
+03-31 13:35:16.728   623   623 F DEBUG   :     #13 pc 000014b4  /system/bin/dpmd
+03-31 13:35:16.825   623   623 F DEBUG   :
+03-31 13:35:16.825   623   623 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_03
+03-31 14:58:04.442   623   623 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-31 14:58:04.442   623   623 F DEBUG   : Build fingerprint: 'vivo/1606/1606:6.0.1/MMB29M/compiler12150122:user/release-keys'
+03-31 14:58:04.442   623   623 F DEBUG   : Revision: '0'
+03-31 14:58:04.442   623   623 F DEBUG   : ABI: 'arm'
+03-31 14:58:04.442   623   623 F DEBUG   : pid: 29456, tid: 29456, name: dpmd  >>> /system/bin/dpmd <<<
+03-31 14:58:04.442   623   623 F DEBUG   : signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0xb694047c
+03-31 14:58:04.464   623   623 F DEBUG   :     r0 00000004  r1 beca1314  r2 00000005  r3 b694047c
+03-31 14:58:04.465   623   623 F DEBUG   :     r4 beca1868  r5 00000009  r6 b69c62a0  r7 0000000a
+03-31 14:58:04.465   623   623 F DEBUG   :     r8 beca186c  r9 beca12a8  sl beca12a4  fp 0000000d
+03-31 14:58:04.465   623   623 F DEBUG   :     ip b6ed6b08  sp beca1298  lr b6ec5e07  pc b694047c  cpsr a0010010
+03-31 14:58:04.472   623   623 F DEBUG   :
+03-31 14:58:04.472   623   623 F DEBUG   : backtrace:
+03-31 14:58:04.473   623   623 F DEBUG   :     #00 pc 0000047c  [anon:libc_malloc]
+03-31 14:58:04.473   623   623 F DEBUG   :     #01 pc 00013e05  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI11DpmDsmEventE13dispatchEventES0_PKv+84)
+03-31 14:58:04.473   623   623 F DEBUG   :     #02 pc 0001535b  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm15handleWwanEventEP15DpmWwanInfoType+942)
+03-31 14:58:04.473   623   623 F DEBUG   :     #03 pc 0001612d  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm13processDpmCmdE14DpmMsgEnumTypePKvPv+248)
+03-31 14:58:04.473   623   623 F DEBUG   :     #04 pc 0000eabd  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI14DpmMsgEnumTypeE13dispatchEventES0_PKv+84)
+03-31 14:58:04.473   623   623 F DEBUG   :     #05 pc 0000ecd9  /system/vendor/lib/libdpmframework.so (_ZN3Dpm19unparcelAndDispatchEiPS_Pvj+372)
+03-31 14:58:04.473   623   623 F DEBUG   :     #06 pc 0000edcd  /system/vendor/lib/libdpmframework.so (_ZN3Dpm15processDpmEventEiPv+136)
+03-31 14:58:04.473   623   623 F DEBUG   :     #07 pc 00012443  /system/vendor/lib/libdpmframework.so (_ZN6DpmCom13processEventsEiR8DpmTimer+450)
+03-31 14:58:04.473   623   623 F DEBUG   :     #08 pc 0000e093  /system/vendor/lib/libdpmframework.so (_ZN3Dpm3runEv+258)
+03-31 14:58:04.473   623   623 F DEBUG   :     #09 pc 00003fab  /system/bin/dpmd
+03-31 14:58:04.473   623   623 F DEBUG   :     #10 pc 000015fb  /system/bin/dpmd
+03-31 14:58:04.473   623   623 F DEBUG   :     #11 pc 000012e1  /system/bin/dpmd
+03-31 14:58:04.473   623   623 F DEBUG   :     #12 pc 000173c9  /system/lib/libc.so (__libc_init+44)
+03-31 14:58:04.473   623   623 F DEBUG   :     #13 pc 000014b4  /system/bin/dpmd
+03-31 14:58:04.555   623   623 F DEBUG   :
+03-31 14:58:04.555   623   623 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_00
+03-31 17:54:25.757  9957 10054 E ActivityThread: Failed to find provider info for com.google.android.apps.wellbeing.api
+--------- beginning of main
+03-31 21:26:28.055   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:26:28.055   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:26:28.056   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:26:28.056   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:27:00.124  9034  9105 E HwDetectorWithState: a: 3
+03-31 21:35:14.852   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:35:14.852   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:35:14.896   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:35:14.896   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:35:21.764   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:35:21.764   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:35:21.764   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:35:21.764   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:35:22.475 15048 15048 E SAClearcutLogger: No menu event found when closing the menu.
+03-31 21:36:05.395   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:05.395   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:05.396   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:05.396   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:05.576   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:05.576   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:05.576   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:05.576   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:06.322 15048 15048 E SAClearcutLogger: No menu event found when closing the menu.
+03-31 21:36:43.809   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:43.809   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:43.810   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:43.810   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:43.965   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:43.965   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:43.965   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:43.965   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:44.667   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:44.667   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:44.668   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:44.668   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:44.867 15048 15048 E SAClearcutLogger: No menu event found when closing the menu.
+03-31 21:36:46.023   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:46.023   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:46.023   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:46.023   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:46.177   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:46.177   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:46.177   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:46.177   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:46.361 15048 15048 E SAClearcutLogger: No menu event found when closing the menu.
+03-31 21:37:48.934  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:48.935  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:48.941  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:48.959  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:48.959  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:37:48.960  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:48.960  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:37:48.961  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:48.961  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:37:48.975  4444  4785 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void baek.g(android.content.Context, badi)
+03-31 21:37:48.979  4444  4785 E baeh    : Phenotype API error. Event # curw@35f8427a, EventCode: 5 [CONTEXT service_id=51 ]
+03-31 21:37:48.979  4444  4785 E baeh    : badk: 29501: Stale snapshot for com.google.android.libraries.notifications.platform#com.google.android.apps.tachyon(change count changed - expected 38  but was 37)
+03-31 21:37:48.979  4444  4785 E baeh    :      at baem.b(:com.google.android.gms@220920016@22.09.20 (040304-434869283):14)
+03-31 21:37:48.979  4444  4785 E baeh    :      at baek.g(:com.google.android.gms@220920016@22.09.20 (040304-434869283))
+03-31 21:37:48.979  4444  4785 E baeh    :      at baeh.e(:com.google.android.gms@220920016@22.09.20 (040304-434869283):4)
+03-31 21:37:48.979  4444  4785 E baeh    :      at baeh.f(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 21:37:48.979  4444  4785 E baeh    :      at agsd.eo(:com.google.android.gms@220920016@22.09.20 (040304-434869283):1)
+03-31 21:37:48.979  4444  4785 E baeh    :      at agsp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):5)
+03-31 21:37:48.979  4444  4785 E baeh    :      at ccjp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 21:37:48.979  4444  4785 E baeh    :      at xss.c(:com.google.android.gms@220920016@22.09.20 (040304-434869283):6)
+03-31 21:37:48.979  4444  4785 E baeh    :      at xss.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):7)
+03-31 21:37:48.979  4444  4785 E baeh    :      at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-31 21:37:48.979  4444  4785 E baeh    :      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-31 21:37:48.979  4444  4785 E baeh    :      at xxx.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):0)
+03-31 21:37:48.979  4444  4785 E baeh    :      at java.lang.Thread.run(Thread.java:818)
+03-31 21:37:49.192  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:49.192  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:49.193  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:37:49.201  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:49.201  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:49.202  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:37:49.212  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:49.212  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:49.212  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:40:02.105   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:40:02.105   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:40:02.118   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:40:02.118   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:40:09.286   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:40:09.286   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:40:09.286   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:40:09.286   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:43:50.581   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:43:50.581   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:43:50.582   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:43:50.582   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:44:03.416   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:44:03.416   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:44:03.416   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:44:03.416   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:44:06.159   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:44:06.159   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:44:06.160   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:44:06.160   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:44:20.112   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:44:20.112   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:44:20.112   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:44:20.112   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:45:47.469   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:45:47.469   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:45:47.469   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:45:47.469   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:45:49.443   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:45:49.443   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:45:49.445   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:45:49.445   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:45:51.299   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:45:51.299   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:45:51.299   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:45:51.299   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:45:52.405   444   444 E TouchPalIME: TouchPalIME onStartInputView
+03-31 21:45:52.405   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInputView
+03-31 21:45:52.984   444   444 E TouchPalIME: TouchPalIME onWindowShown
+03-31 21:45:52.984   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onWindowShown
+03-31 21:46:04.417   444   444 E TouchPalIME: TouchPalIME onFinishInputView
+03-31 21:46:04.417   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInputView
+03-31 21:46:04.548   444   444 E TouchPalIME: TouchPalIME onFinishInputView
+03-31 21:46:04.548   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInputView
+03-31 21:46:04.549   444   444 E TouchPalIME: TouchPalIME onWindowHidden
+03-31 21:46:04.549   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onWindowHidden
+03-31 21:46:05.290   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:46:05.290   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:46:05.291   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:46:05.291   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:46:53.951   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:46:53.951   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:46:53.951   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:46:53.951   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:46:58.963   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:46:58.963   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:46:58.963   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:46:58.963   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:47:00.958   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:47:00.958   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:47:00.958   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:47:00.958   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:47:02.813   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:47:02.813   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:47:02.814   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:47:02.814   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:47:31.359   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:47:31.359   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:47:31.359   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:47:31.359   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:48:44.184   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:48:44.184   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:48:44.184   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:48:44.184   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:50:27.361   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:50:27.361   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:50:27.361   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:50:27.362   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:50:28.975   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:50:28.975   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:50:28.975   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:50:28.975   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:50:35.144   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:50:35.144   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:50:35.144   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:50:35.144   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:50:43.860   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:50:43.860   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:50:43.860   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:50:43.860   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:54:08.929  9034  9079 E HwDetectorWithState: a: 3
+03-31 21:54:25.536   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:54:25.536   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:54:25.536   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:54:25.536   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:57:08.456  4444 25739 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void baex.g(android.content.Context, badi)
+03-31 21:57:08.459  4444 25739 E baeh    : Phenotype API error. Event # curw@f78e632, EventCode: 7 [CONTEXT service_id=51 ]
+03-31 21:57:08.459  4444 25739 E baeh    : badk: 29505: No config packages for log source, or config package not registered
+03-31 21:57:08.459  4444 25739 E baeh    :      at bafb.c(:com.google.android.gms@220920016@22.09.20 (040304-434869283):4)
+03-31 21:57:08.459  4444 25739 E baeh    :      at baex.g(:com.google.android.gms@220920016@22.09.20 (040304-434869283))
+03-31 21:57:08.459  4444 25739 E baeh    :      at baeh.e(:com.google.android.gms@220920016@22.09.20 (040304-434869283):4)
+03-31 21:57:08.459  4444 25739 E baeh    :      at baeh.f(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 21:57:08.459  4444 25739 E baeh    :      at agsd.eo(:com.google.android.gms@220920016@22.09.20 (040304-434869283):1)
+03-31 21:57:08.459  4444 25739 E baeh    :      at agsp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):5)
+03-31 21:57:08.459  4444 25739 E baeh    :      at ccjp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 21:57:08.459  4444 25739 E baeh    :      at xss.c(:com.google.android.gms@220920016@22.09.20 (040304-434869283):6)
+03-31 21:57:08.459  4444 25739 E baeh    :      at xss.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):7)
+03-31 21:57:08.459  4444 25739 E baeh    :      at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-31 21:57:08.459  4444 25739 E baeh    :      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-31 21:57:08.459  4444 25739 E baeh    :      at xxx.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):0)
+03-31 21:57:08.459  4444 25739 E baeh    :      at java.lang.Thread.run(Thread.java:818)
+03-31 22:00:55.799   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:00:55.799   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:00:55.888   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:00:55.888   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:01:03.755   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:01:03.755   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:01:03.762   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:01:03.762   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:01:06.206   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:01:06.206   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:01:06.206   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:01:06.206   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:01:08.213   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:01:08.213   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:01:08.214   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:01:08.214   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:01:09.268   444   444 E TouchPalIME: TouchPalIME onStartInputView
+03-31 22:01:09.268   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInputView
+03-31 22:01:09.908   444   444 E TouchPalIME: TouchPalIME onWindowShown
+03-31 22:01:09.908   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onWindowShown
+03-31 22:02:01.556   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:02:01.556   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:02:01.557   444   444 E TouchPalIME: TouchPalIME onStartInputView
+03-31 22:02:01.557   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInputView
+03-31 22:02:02.082 12186 29660 E ExtMediaPlayer-JNI: env->IsInstanceOf fails
+03-31 22:02:02.082 12186 29660 E MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+03-31 22:02:02.082 12186 29660 E ExtMediaPlayer-JNI: env->IsInstanceOf fails
+03-31 22:02:02.082 12186 29660 E MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+03-31 22:02:26.170   444   444 E TouchPalIME: TouchPalIME onFinishInputView
+03-31 22:02:26.170   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInputView
+03-31 22:02:26.228   444   444 E TouchPalIME: TouchPalIME onWindowHidden
+03-31 22:02:26.228   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onWindowHidden
+03-31 22:02:26.259   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:02:26.259   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:02:26.259   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:02:26.259   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:02:52.239   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:02:52.239   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:02:52.240   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:02:52.240   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:02:59.162   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:02:59.162   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:02:59.162   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:02:59.162   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:05:33.774  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:05:33.791  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:05:33.791  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:05:34.063  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:05:34.064  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:05:34.064  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:05:42.693  4444 27435 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+03-31 22:06:10.937  9034  9078 E HwDetectorWithState: a: 3
+03-31 22:06:38.443  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:06:38.453  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:06:38.453  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:06:38.786  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:06:38.787  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:06:38.787  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:06:39.828  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:06:39.828  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:06:39.828  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:06:39.968  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:06:39.968  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:06:39.968  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:07:38.310  4444  4524 E DGHandleImpl: Error while closing handle.
+03-31 22:08:21.068   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:08:21.068   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:08:21.071   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:08:21.071   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:09:21.772  4444 25739 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void baex.g(android.content.Context, badi)
+03-31 22:09:21.781  4444 25739 E baeh    : Phenotype API error. Event # curw@d944a3c3, EventCode: 7 [CONTEXT service_id=51 ]
+03-31 22:09:21.781  4444 25739 E baeh    : badk: 29505: No config packages for log source, or config package not registered
+03-31 22:09:21.781  4444 25739 E baeh    :      at bafb.c(:com.google.android.gms@220920016@22.09.20 (040304-434869283):4)
+03-31 22:09:21.781  4444 25739 E baeh    :      at baex.g(:com.google.android.gms@220920016@22.09.20 (040304-434869283))
+03-31 22:09:21.781  4444 25739 E baeh    :      at baeh.e(:com.google.android.gms@220920016@22.09.20 (040304-434869283):4)
+03-31 22:09:21.781  4444 25739 E baeh    :      at baeh.f(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 22:09:21.781  4444 25739 E baeh    :      at agsd.eo(:com.google.android.gms@220920016@22.09.20 (040304-434869283):1)
+03-31 22:09:21.781  4444 25739 E baeh    :      at agsp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):5)
+03-31 22:09:21.781  4444 25739 E baeh    :      at ccjp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 22:09:21.781  4444 25739 E baeh    :      at xss.c(:com.google.android.gms@220920016@22.09.20 (040304-434869283):6)
+03-31 22:09:21.781  4444 25739 E baeh    :      at xss.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):7)
+03-31 22:09:21.781  4444 25739 E baeh    :      at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-31 22:09:21.781  4444 25739 E baeh    :      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-31 22:09:21.781  4444 25739 E baeh    :      at xxx.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):0)
+03-31 22:09:21.781  4444 25739 E baeh    :      at java.lang.Thread.run(Thread.java:818)
+03-31 22:09:57.595  4444  2383 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:09:57.786  4444  2383 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:09:58.455  9034  9104 E HwDetectorWithState: a: 3
+03-31 22:13:20.872  4578  4578 E fbservices:FbnsServiceDelegate: onBind invalid signature: Intent { act=com.facebook.push.fbns.ipc.IFbnsAIDLService cmp=com.facebook.services/com.facebook.oxygen.services.fbns.PreloadedFbnsService (has extras) }
+^C
+C:\Users\dell\Downloads\platform-tools>adb logcat -v threadtime rakesh.txt
+--------- beginning of crash
+03-26 08:14:03.833  2632  2632 E AndroidRuntime: FATAL EXCEPTION: main
+03-26 08:14:03.833  2632  2632 E AndroidRuntime: Process: com.android.phone, PID: 2632
+03-26 08:14:03.833  2632  2632 E AndroidRuntime: java.lang.RuntimeException: android.os.DeadObjectException
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.net.TrafficStats.getMobileIfaces(TrafficStats.java:628)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.net.TrafficStats.getMobileTcpTxPackets(TrafficStats.java:372)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at com.android.internal.telephony.dataconnection.DcTrackerBase$TxRxSum.updateTxRxSum(DcTrackerBase.java:531)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at com.android.internal.telephony.dataconnection.DcTrackerBase.updateDataActivity(DcTrackerBase.java:1585)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at com.android.internal.telephony.dataconnection.DcTrackerBase$3.run(DcTrackerBase.java:393)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.os.Handler.handleCallback(Handler.java:739)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.os.Handler.dispatchMessage(Handler.java:95)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.os.Looper.loop(Looper.java:148)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.app.ActivityThread.main(ActivityThread.java:5619)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at java.lang.reflect.Method.invoke(Native Method)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:853)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:737)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime: Caused by: android.os.DeadObjectException
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.os.BinderProxy.transactNative(Native Method)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.os.BinderProxy.transact(Binder.java:503)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.net.INetworkStatsService$Stub$Proxy.getMobileIfaces(INetworkStatsService.java:273)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        at android.net.TrafficStats.getMobileIfaces(TrafficStats.java:626)
+03-26 08:14:03.833  2632  2632 E AndroidRuntime:        ... 11 more
+03-26 08:14:03.878  2632  2632 E AndroidRuntime: Error reporting crash
+03-26 08:14:03.878  2632  2632 E AndroidRuntime: android.os.DeadObjectException
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at android.os.BinderProxy.transactNative(Native Method)
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at android.os.BinderProxy.transact(Binder.java:503)
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at android.app.ActivityManagerProxy.handleApplicationCrash(ActivityManagerNative.java:4549)
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:90)
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+03-26 08:14:03.878  2632  2632 E AndroidRuntime:        at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+--------- beginning of system
+03-31 08:45:14.661  8944  9092 E ActivityThread: Failed to find provider info for com.vivo.abe.exidentifier
+03-31 13:24:39.188   623   623 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-31 13:24:39.188   623   623 F DEBUG   : Build fingerprint: 'vivo/1606/1606:6.0.1/MMB29M/compiler12150122:user/release-keys'
+03-31 13:24:39.188   623   623 F DEBUG   : Revision: '0'
+03-31 13:24:39.188   623   623 F DEBUG   : ABI: 'arm'
+03-31 13:24:39.188   623   623 F DEBUG   : pid: 782, tid: 782, name: dpmd  >>> /system/bin/dpmd <<<
+03-31 13:24:39.188   623   623 F DEBUG   : signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0xb694047c
+03-31 13:24:39.218   623   623 F DEBUG   :     r0 00000004  r1 bec66314  r2 00000005  r3 b694047c
+03-31 13:24:39.218   623   623 F DEBUG   :     r4 bec66868  r5 00000009  r6 b69c6438  r7 0000000a
+03-31 13:24:39.218   623   623 F DEBUG   :     r8 bec6686c  r9 bec662a8  sl bec662a4  fp 0000000d
+03-31 13:24:39.218   623   623 F DEBUG   :     ip b6ee4b08  sp bec66298  lr b6ed3e07  pc b694047c  cpsr a0010010
+03-31 13:24:39.233   623   623 F DEBUG   :
+03-31 13:24:39.233   623   623 F DEBUG   : backtrace:
+03-31 13:24:39.233   623   623 F DEBUG   :     #00 pc 0000047c  [anon:libc_malloc]
+03-31 13:24:39.233   623   623 F DEBUG   :     #01 pc 00013e05  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI11DpmDsmEventE13dispatchEventES0_PKv+84)
+03-31 13:24:39.233   623   623 F DEBUG   :     #02 pc 0001535b  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm15handleWwanEventEP15DpmWwanInfoType+942)
+03-31 13:24:39.233   623   623 F DEBUG   :     #03 pc 0001612d  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm13processDpmCmdE14DpmMsgEnumTypePKvPv+248)
+03-31 13:24:39.233   623   623 F DEBUG   :     #04 pc 0000eabd  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI14DpmMsgEnumTypeE13dispatchEventES0_PKv+84)
+03-31 13:24:39.233   623   623 F DEBUG   :     #05 pc 0000ecd9  /system/vendor/lib/libdpmframework.so (_ZN3Dpm19unparcelAndDispatchEiPS_Pvj+372)
+03-31 13:24:39.233   623   623 F DEBUG   :     #06 pc 0000edcd  /system/vendor/lib/libdpmframework.so (_ZN3Dpm15processDpmEventEiPv+136)
+03-31 13:24:39.233   623   623 F DEBUG   :     #07 pc 00012443  /system/vendor/lib/libdpmframework.so (_ZN6DpmCom13processEventsEiR8DpmTimer+450)
+03-31 13:24:39.233   623   623 F DEBUG   :     #08 pc 0000e093  /system/vendor/lib/libdpmframework.so (_ZN3Dpm3runEv+258)
+03-31 13:24:39.233   623   623 F DEBUG   :     #09 pc 00003fab  /system/bin/dpmd
+03-31 13:24:39.233   623   623 F DEBUG   :     #10 pc 000015fb  /system/bin/dpmd
+03-31 13:24:39.233   623   623 F DEBUG   :     #11 pc 000012e1  /system/bin/dpmd
+03-31 13:24:39.233   623   623 F DEBUG   :     #12 pc 000173c9  /system/lib/libc.so (__libc_init+44)
+03-31 13:24:39.233   623   623 F DEBUG   :     #13 pc 000014b4  /system/bin/dpmd
+03-31 13:24:39.309   623   623 F DEBUG   :
+03-31 13:24:39.309   623   623 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_07
+03-31 13:35:16.627   623   623 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-31 13:35:16.627   623   623 F DEBUG   : Build fingerprint: 'vivo/1606/1606:6.0.1/MMB29M/compiler12150122:user/release-keys'
+03-31 13:35:16.627   623   623 F DEBUG   : Revision: '0'
+03-31 13:35:16.627   623   623 F DEBUG   : ABI: 'arm'
+03-31 13:35:16.627   623   623 F DEBUG   : pid: 21621, tid: 21621, name: dpmd  >>> /system/bin/dpmd <<<
+03-31 13:35:16.628   623   623 F DEBUG   : signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0xb6a0047c
+03-31 13:35:16.719   623   623 F DEBUG   :     r0 00000004  r1 be9f3314  r2 00000005  r3 b6a0047c
+03-31 13:35:16.720   623   623 F DEBUG   :     r4 be9f3868  r5 00000009  r6 b6a861e0  r7 0000000a
+03-31 13:35:16.720   623   623 F DEBUG   :     r8 be9f386c  r9 be9f32a8  sl be9f32a4  fp 0000000d
+03-31 13:35:16.720   623   623 F DEBUG   :     ip b6f80b08  sp be9f3298  lr b6f6fe07  pc b6a0047c  cpsr a0010010
+03-31 13:35:16.727   623   623 F DEBUG   :
+03-31 13:35:16.727   623   623 F DEBUG   : backtrace:
+03-31 13:35:16.728   623   623 F DEBUG   :     #00 pc 0000047c  [anon:libc_malloc]
+03-31 13:35:16.728   623   623 F DEBUG   :     #01 pc 00013e05  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI11DpmDsmEventE13dispatchEventES0_PKv+84)
+03-31 13:35:16.728   623   623 F DEBUG   :     #02 pc 0001535b  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm15handleWwanEventEP15DpmWwanInfoType+942)
+03-31 13:35:16.728   623   623 F DEBUG   :     #03 pc 0001612d  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm13processDpmCmdE14DpmMsgEnumTypePKvPv+248)
+03-31 13:35:16.728   623   623 F DEBUG   :     #04 pc 0000eabd  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI14DpmMsgEnumTypeE13dispatchEventES0_PKv+84)
+03-31 13:35:16.728   623   623 F DEBUG   :     #05 pc 0000ecd9  /system/vendor/lib/libdpmframework.so (_ZN3Dpm19unparcelAndDispatchEiPS_Pvj+372)
+03-31 13:35:16.728   623   623 F DEBUG   :     #06 pc 0000edcd  /system/vendor/lib/libdpmframework.so (_ZN3Dpm15processDpmEventEiPv+136)
+03-31 13:35:16.728   623   623 F DEBUG   :     #07 pc 00012443  /system/vendor/lib/libdpmframework.so (_ZN6DpmCom13processEventsEiR8DpmTimer+450)
+03-31 13:35:16.728   623   623 F DEBUG   :     #08 pc 0000e093  /system/vendor/lib/libdpmframework.so (_ZN3Dpm3runEv+258)
+03-31 13:35:16.728   623   623 F DEBUG   :     #09 pc 00003fab  /system/bin/dpmd
+03-31 13:35:16.728   623   623 F DEBUG   :     #10 pc 000015fb  /system/bin/dpmd
+03-31 13:35:16.728   623   623 F DEBUG   :     #11 pc 000012e1  /system/bin/dpmd
+03-31 13:35:16.728   623   623 F DEBUG   :     #12 pc 000173c9  /system/lib/libc.so (__libc_init+44)
+03-31 13:35:16.728   623   623 F DEBUG   :     #13 pc 000014b4  /system/bin/dpmd
+03-31 13:35:16.825   623   623 F DEBUG   :
+03-31 13:35:16.825   623   623 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_03
+03-31 14:58:04.442   623   623 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-31 14:58:04.442   623   623 F DEBUG   : Build fingerprint: 'vivo/1606/1606:6.0.1/MMB29M/compiler12150122:user/release-keys'
+03-31 14:58:04.442   623   623 F DEBUG   : Revision: '0'
+03-31 14:58:04.442   623   623 F DEBUG   : ABI: 'arm'
+03-31 14:58:04.442   623   623 F DEBUG   : pid: 29456, tid: 29456, name: dpmd  >>> /system/bin/dpmd <<<
+03-31 14:58:04.442   623   623 F DEBUG   : signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0xb694047c
+03-31 14:58:04.464   623   623 F DEBUG   :     r0 00000004  r1 beca1314  r2 00000005  r3 b694047c
+03-31 14:58:04.465   623   623 F DEBUG   :     r4 beca1868  r5 00000009  r6 b69c62a0  r7 0000000a
+03-31 14:58:04.465   623   623 F DEBUG   :     r8 beca186c  r9 beca12a8  sl beca12a4  fp 0000000d
+03-31 14:58:04.465   623   623 F DEBUG   :     ip b6ed6b08  sp beca1298  lr b6ec5e07  pc b694047c  cpsr a0010010
+03-31 14:58:04.472   623   623 F DEBUG   :
+03-31 14:58:04.472   623   623 F DEBUG   : backtrace:
+03-31 14:58:04.473   623   623 F DEBUG   :     #00 pc 0000047c  [anon:libc_malloc]
+03-31 14:58:04.473   623   623 F DEBUG   :     #01 pc 00013e05  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI11DpmDsmEventE13dispatchEventES0_PKv+84)
+03-31 14:58:04.473   623   623 F DEBUG   :     #02 pc 0001535b  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm15handleWwanEventEP15DpmWwanInfoType+942)
+03-31 14:58:04.473   623   623 F DEBUG   :     #03 pc 0001612d  /system/vendor/lib/libdpmframework.so (_ZN6DpmDsm13processDpmCmdE14DpmMsgEnumTypePKvPv+248)
+03-31 14:58:04.473   623   623 F DEBUG   :     #04 pc 0000eabd  /system/vendor/lib/libdpmframework.so (_ZN15EventDispatcherI14DpmMsgEnumTypeE13dispatchEventES0_PKv+84)
+03-31 14:58:04.473   623   623 F DEBUG   :     #05 pc 0000ecd9  /system/vendor/lib/libdpmframework.so (_ZN3Dpm19unparcelAndDispatchEiPS_Pvj+372)
+03-31 14:58:04.473   623   623 F DEBUG   :     #06 pc 0000edcd  /system/vendor/lib/libdpmframework.so (_ZN3Dpm15processDpmEventEiPv+136)
+03-31 14:58:04.473   623   623 F DEBUG   :     #07 pc 00012443  /system/vendor/lib/libdpmframework.so (_ZN6DpmCom13processEventsEiR8DpmTimer+450)
+03-31 14:58:04.473   623   623 F DEBUG   :     #08 pc 0000e093  /system/vendor/lib/libdpmframework.so (_ZN3Dpm3runEv+258)
+03-31 14:58:04.473   623   623 F DEBUG   :     #09 pc 00003fab  /system/bin/dpmd
+03-31 14:58:04.473   623   623 F DEBUG   :     #10 pc 000015fb  /system/bin/dpmd
+03-31 14:58:04.473   623   623 F DEBUG   :     #11 pc 000012e1  /system/bin/dpmd
+03-31 14:58:04.473   623   623 F DEBUG   :     #12 pc 000173c9  /system/lib/libc.so (__libc_init+44)
+03-31 14:58:04.473   623   623 F DEBUG   :     #13 pc 000014b4  /system/bin/dpmd
+03-31 14:58:04.555   623   623 F DEBUG   :
+03-31 14:58:04.555   623   623 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_00
+03-31 17:54:25.757  9957 10054 E ActivityThread: Failed to find provider info for com.google.android.apps.wellbeing.api
+--------- beginning of main
+03-31 21:27:00.124  9034  9105 E HwDetectorWithState: a: 3
+03-31 21:35:14.852   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:35:14.852   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:35:14.896   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:35:14.896   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:35:21.764   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:35:21.764   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:35:21.764   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:35:21.764   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:35:22.475 15048 15048 E SAClearcutLogger: No menu event found when closing the menu.
+03-31 21:36:05.395   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:05.395   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:05.396   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:05.396   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:05.576   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:05.576   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:05.576   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:05.576   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:06.322 15048 15048 E SAClearcutLogger: No menu event found when closing the menu.
+03-31 21:36:43.809   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:43.809   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:43.810   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:43.810   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:43.965   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:43.965   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:43.965   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:43.965   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:44.667   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:44.667   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:44.668   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:44.668   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:44.867 15048 15048 E SAClearcutLogger: No menu event found when closing the menu.
+03-31 21:36:46.023   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:46.023   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:46.023   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:46.023   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:46.177   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:36:46.177   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:36:46.177   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:36:46.177   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:36:46.361 15048 15048 E SAClearcutLogger: No menu event found when closing the menu.
+03-31 21:37:48.934  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:48.935  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:48.941  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:48.959  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:48.959  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:37:48.960  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:48.960  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:37:48.961  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:48.961  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:37:48.975  4444  4785 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void baek.g(android.content.Context, badi)
+03-31 21:37:48.979  4444  4785 E baeh    : Phenotype API error. Event # curw@35f8427a, EventCode: 5 [CONTEXT service_id=51 ]
+03-31 21:37:48.979  4444  4785 E baeh    : badk: 29501: Stale snapshot for com.google.android.libraries.notifications.platform#com.google.android.apps.tachyon(change count changed - expected 38  but was 37)
+03-31 21:37:48.979  4444  4785 E baeh    :      at baem.b(:com.google.android.gms@220920016@22.09.20 (040304-434869283):14)
+03-31 21:37:48.979  4444  4785 E baeh    :      at baek.g(:com.google.android.gms@220920016@22.09.20 (040304-434869283))
+03-31 21:37:48.979  4444  4785 E baeh    :      at baeh.e(:com.google.android.gms@220920016@22.09.20 (040304-434869283):4)
+03-31 21:37:48.979  4444  4785 E baeh    :      at baeh.f(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 21:37:48.979  4444  4785 E baeh    :      at agsd.eo(:com.google.android.gms@220920016@22.09.20 (040304-434869283):1)
+03-31 21:37:48.979  4444  4785 E baeh    :      at agsp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):5)
+03-31 21:37:48.979  4444  4785 E baeh    :      at ccjp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 21:37:48.979  4444  4785 E baeh    :      at xss.c(:com.google.android.gms@220920016@22.09.20 (040304-434869283):6)
+03-31 21:37:48.979  4444  4785 E baeh    :      at xss.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):7)
+03-31 21:37:48.979  4444  4785 E baeh    :      at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-31 21:37:48.979  4444  4785 E baeh    :      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-31 21:37:48.979  4444  4785 E baeh    :      at xxx.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):0)
+03-31 21:37:48.979  4444  4785 E baeh    :      at java.lang.Thread.run(Thread.java:818)
+03-31 21:37:49.192  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:49.192  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:49.193  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:37:49.201  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:49.201  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:49.202  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:37:49.212  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 21:37:49.212  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 21:37:49.212  4444  4457 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 21:40:02.105   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:40:02.105   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:40:02.118   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:40:02.118   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:40:09.286   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:40:09.286   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:40:09.286   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:40:09.286   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:43:50.581   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:43:50.581   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:43:50.582   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:43:50.582   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:44:03.416   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:44:03.416   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:44:03.416   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:44:03.416   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:44:06.159   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:44:06.159   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:44:06.160   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:44:06.160   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:44:20.112   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:44:20.112   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:44:20.112   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:44:20.112   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:45:47.469   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:45:47.469   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:45:47.469   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:45:47.469   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:45:49.443   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:45:49.443   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:45:49.445   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:45:49.445   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:45:51.299   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:45:51.299   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:45:51.299   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:45:51.299   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:45:52.405   444   444 E TouchPalIME: TouchPalIME onStartInputView
+03-31 21:45:52.405   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInputView
+03-31 21:45:52.984   444   444 E TouchPalIME: TouchPalIME onWindowShown
+03-31 21:45:52.984   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onWindowShown
+03-31 21:46:04.417   444   444 E TouchPalIME: TouchPalIME onFinishInputView
+03-31 21:46:04.417   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInputView
+03-31 21:46:04.548   444   444 E TouchPalIME: TouchPalIME onFinishInputView
+03-31 21:46:04.548   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInputView
+03-31 21:46:04.549   444   444 E TouchPalIME: TouchPalIME onWindowHidden
+03-31 21:46:04.549   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onWindowHidden
+03-31 21:46:05.290   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:46:05.290   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:46:05.291   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:46:05.291   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:46:53.951   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:46:53.951   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:46:53.951   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:46:53.951   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:46:58.963   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:46:58.963   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:46:58.963   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:46:58.963   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:47:00.958   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:47:00.958   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:47:00.958   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:47:00.958   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:47:02.813   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:47:02.813   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:47:02.814   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:47:02.814   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:47:31.359   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:47:31.359   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:47:31.359   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:47:31.359   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:48:44.184   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:48:44.184   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:48:44.184   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:48:44.184   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:50:27.361   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:50:27.361   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:50:27.361   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:50:27.362   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:50:28.975   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:50:28.975   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:50:28.975   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:50:28.975   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:50:35.144   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:50:35.144   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:50:35.144   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:50:35.144   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:50:43.860   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:50:43.860   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:50:43.860   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:50:43.860   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:54:08.929  9034  9079 E HwDetectorWithState: a: 3
+03-31 21:54:25.536   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 21:54:25.536   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 21:54:25.536   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 21:54:25.536   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 21:57:08.456  4444 25739 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void baex.g(android.content.Context, badi)
+03-31 21:57:08.459  4444 25739 E baeh    : Phenotype API error. Event # curw@f78e632, EventCode: 7 [CONTEXT service_id=51 ]
+03-31 21:57:08.459  4444 25739 E baeh    : badk: 29505: No config packages for log source, or config package not registered
+03-31 21:57:08.459  4444 25739 E baeh    :      at bafb.c(:com.google.android.gms@220920016@22.09.20 (040304-434869283):4)
+03-31 21:57:08.459  4444 25739 E baeh    :      at baex.g(:com.google.android.gms@220920016@22.09.20 (040304-434869283))
+03-31 21:57:08.459  4444 25739 E baeh    :      at baeh.e(:com.google.android.gms@220920016@22.09.20 (040304-434869283):4)
+03-31 21:57:08.459  4444 25739 E baeh    :      at baeh.f(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 21:57:08.459  4444 25739 E baeh    :      at agsd.eo(:com.google.android.gms@220920016@22.09.20 (040304-434869283):1)
+03-31 21:57:08.459  4444 25739 E baeh    :      at agsp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):5)
+03-31 21:57:08.459  4444 25739 E baeh    :      at ccjp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 21:57:08.459  4444 25739 E baeh    :      at xss.c(:com.google.android.gms@220920016@22.09.20 (040304-434869283):6)
+03-31 21:57:08.459  4444 25739 E baeh    :      at xss.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):7)
+03-31 21:57:08.459  4444 25739 E baeh    :      at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-31 21:57:08.459  4444 25739 E baeh    :      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-31 21:57:08.459  4444 25739 E baeh    :      at xxx.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):0)
+03-31 21:57:08.459  4444 25739 E baeh    :      at java.lang.Thread.run(Thread.java:818)
+03-31 22:00:55.799   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:00:55.799   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:00:55.888   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:00:55.888   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:01:03.755   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:01:03.755   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:01:03.762   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:01:03.762   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:01:06.206   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:01:06.206   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:01:06.206   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:01:06.206   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:01:08.213   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:01:08.213   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:01:08.214   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:01:08.214   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:01:09.268   444   444 E TouchPalIME: TouchPalIME onStartInputView
+03-31 22:01:09.268   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInputView
+03-31 22:01:09.908   444   444 E TouchPalIME: TouchPalIME onWindowShown
+03-31 22:01:09.908   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onWindowShown
+03-31 22:02:01.556   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:02:01.556   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:02:01.557   444   444 E TouchPalIME: TouchPalIME onStartInputView
+03-31 22:02:01.557   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInputView
+03-31 22:02:02.082 12186 29660 E ExtMediaPlayer-JNI: env->IsInstanceOf fails
+03-31 22:02:02.082 12186 29660 E MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+03-31 22:02:02.082 12186 29660 E ExtMediaPlayer-JNI: env->IsInstanceOf fails
+03-31 22:02:02.082 12186 29660 E MediaPlayer-JNI: JNIMediaPlayerFactory: bIsQCMediaPlayerPresent 0
+03-31 22:02:26.170   444   444 E TouchPalIME: TouchPalIME onFinishInputView
+03-31 22:02:26.170   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInputView
+03-31 22:02:26.228   444   444 E TouchPalIME: TouchPalIME onWindowHidden
+03-31 22:02:26.228   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onWindowHidden
+03-31 22:02:26.259   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:02:26.259   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:02:26.259   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:02:26.259   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:02:52.239   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:02:52.239   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:02:52.240   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:02:52.240   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:02:59.162   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:02:59.162   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:02:59.162   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:02:59.162   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:05:33.774  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:05:33.791  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:05:33.791  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:05:34.063  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:05:34.064  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:05:34.064  4444 11046 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:05:42.693  4444 27435 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+03-31 22:06:10.937  9034  9078 E HwDetectorWithState: a: 3
+03-31 22:06:38.443  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:06:38.453  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:06:38.453  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:06:38.786  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:06:38.787  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:06:38.787  4444  5790 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:06:39.828  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:06:39.828  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:06:39.828  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:06:39.968  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:06:39.968  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method org.apache.http.HttpResponse ink.c(java.lang.String, java.lang.String, org.apache.http.HttpEntity, android.content.Context, ajca)
+03-31 22:06:39.968  4444  4476 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk for method android.os.Bundle emv.h(android.accounts.Account, java.lang.String, android.os.Bundle)
+03-31 22:07:38.310  4444  4524 E DGHandleImpl: Error while closing handle.
+03-31 22:08:21.068   444   444 E TouchPalIME: TouchPalIME onFinishInput
+03-31 22:08:21.068   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onFinishInput
+03-31 22:08:21.071   444   444 E TouchPalIME: TouchPalIME onStartInput
+03-31 22:08:21.071   444   444 E TouchPalIMEImpl: TouchPalIMEImpl onStartInput
+03-31 22:09:21.772  4444 25739 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void baex.g(android.content.Context, badi)
+03-31 22:09:21.781  4444 25739 E baeh    : Phenotype API error. Event # curw@d944a3c3, EventCode: 7 [CONTEXT service_id=51 ]
+03-31 22:09:21.781  4444 25739 E baeh    : badk: 29505: No config packages for log source, or config package not registered
+03-31 22:09:21.781  4444 25739 E baeh    :      at bafb.c(:com.google.android.gms@220920016@22.09.20 (040304-434869283):4)
+03-31 22:09:21.781  4444 25739 E baeh    :      at baex.g(:com.google.android.gms@220920016@22.09.20 (040304-434869283))
+03-31 22:09:21.781  4444 25739 E baeh    :      at baeh.e(:com.google.android.gms@220920016@22.09.20 (040304-434869283):4)
+03-31 22:09:21.781  4444 25739 E baeh    :      at baeh.f(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 22:09:21.781  4444 25739 E baeh    :      at agsd.eo(:com.google.android.gms@220920016@22.09.20 (040304-434869283):1)
+03-31 22:09:21.781  4444 25739 E baeh    :      at agsp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):5)
+03-31 22:09:21.781  4444 25739 E baeh    :      at ccjp.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):2)
+03-31 22:09:21.781  4444 25739 E baeh    :      at xss.c(:com.google.android.gms@220920016@22.09.20 (040304-434869283):6)
+03-31 22:09:21.781  4444 25739 E baeh    :      at xss.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):7)
+03-31 22:09:21.781  4444 25739 E baeh    :      at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-31 22:09:21.781  4444 25739 E baeh    :      at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-31 22:09:21.781  4444 25739 E baeh    :      at xxx.run(:com.google.android.gms@220920016@22.09.20 (040304-434869283):0)
+03-31 22:09:21.781  4444 25739 E baeh    :      at java.lang.Thread.run(Thread.java:818)
+03-31 22:09:57.595  4444  2383 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:09:57.786  4444  2383 E art     : invalid stream - problem with parameter iterator in /data/app/com.google.android.gms-1/base.apk:classes4.dex for method void com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(int)
+03-31 22:09:58.455  9034  9104 E HwDetectorWithState: a: 3
+03-31 22:13:20.872  4578  4578 E fbservices:FbnsServiceDelegate: onBind invalid signature: Intent { act=com.facebook.push.fbns.ipc.IFbnsAIDLService cmp=com.facebook.services/com.facebook.oxygen.services.fbns.PreloadedFbnsService (has extras) }
+03-31 22:14:32.811  4444 28607 E WakeLock: GCM_HB_ALARM release without a matched acquire!
+03-31 22:15:25.943  5268  5290 E nightwatch-fd: Unable to open /proc/self/oom_adj (mode read) : 13 : Permission denied
+03-31 22:15:25.943  5268  5290 E nightwatch-fd: Unable to open /proc/self/oom_score_adj (mode read) : 13 : Permission denied
+03-31 22:15:27.853  5220  5220 E fbservices:FbnsServiceDelegate: onBind invalid signature: Intent { act=com.facebook.push.fbns.ipc.IFbnsAIDLService cmp=com.facebook.services/com.facebook.oxygen.services.fbns.PreloadedFbnsService (has extras) }
+03-31 22:15:33.998  5268  5395 E FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 193692
+03-31 22:15:33.998  5268  5395 E FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+03-31 22:15:33.998  5268  5395 E FbnsAIDLClientManager: android.os.RemoteException: AIDLService is not bound
+03-31 22:15:33.998  5268  5395 E FbnsAIDLClientManager:         at X.0tO.call(:386)
+03-31 22:15:33.998  5268  5395 E FbnsAIDLClientManager:         at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+03-31 22:15:33.998  5268  5395 E FbnsAIDLClientManager:         at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-31 22:15:33.998  5268  5395 E FbnsAIDLClientManager:         at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-31 22:15:33.998  5268  5395 E FbnsAIDLClientManager:         at java.lang.Thread.run(Thread.java:818)
+03-31 22:15:34.078  5268  5400 E FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 193697
+03-31 22:15:34.079  5268  5400 E FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+03-31 22:15:34.079  5268  5400 E FbnsAIDLClientManager: android.os.RemoteException: AIDLService is not bound
+03-31 22:15:34.079  5268  5400 E FbnsAIDLClientManager:         at X.0tO.call(:386)
+03-31 22:15:34.079  5268  5400 E FbnsAIDLClientManager:         at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+03-31 22:15:34.079  5268  5400 E FbnsAIDLClientManager:         at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+03-31 22:15:34.079  5268  5400 E FbnsAIDLClientManager:         at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+03-31 22:15:34.079  5268  5400 E FbnsAIDLClientManager:         at java.lang.Thread.run(Thread.java:818)
+^C
+C:\Users\dell\Downloads\platform-tools>adb logcat -v threadtime >rakesh.txt
+^C
+C:\Users\dell\Downloads\platform-tools>adb shell pm list packages  | findstr camera
+package:com.vivo.cameraparamluma
+package:com.android.camera
+
+C:\Users\dell\Downloads\platform-tools>adb shell screencap -p /sdcard/screencap.png
+
+C:\Users\dell\Downloads\platform-tools>
